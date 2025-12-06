@@ -1,7 +1,7 @@
 .app-container {
     display: flex;
     flex-direction: column;
-    height: 95%;
+    height: 90%;
     width: 100%;
     overflow: hidden;
     border-radius: var(--radius-lg);
