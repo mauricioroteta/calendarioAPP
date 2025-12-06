@@ -1,6 +1,6 @@
 /* Global Styles - Minimalist & Elegant */
 :root {
-  --bg-primary: #FAFAFA;
+  --bg-primary: #EEF2F5;
   --bg-secondary: #FFFFFF;
   --text-primary: #333333;
   --text-secondary: #757575;
@@ -9,7 +9,7 @@
   --highlight-color: #000000;
   /* Modern Aesthetic Variables */
   --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.05);
-  --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.08);
+  --shadow-md: 0 12px 32px rgba(0, 0, 0, 0.15);
   --radius-md: 16px;
   --radius-lg: 24px;
   --transition-fast: 0.2s cubic-bezier(0.25, 0.8, 0.25, 1);
