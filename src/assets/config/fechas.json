@@ -1,0 +1,26 @@
+[
+    {
+        "date": "2025-12-25",
+        "title": "Navidad",
+        "description": "Celebración de la Navidad. Un momento para compartir en familia.",
+        "category": "efemeride"
+    },
+    {
+        "date": "2025-12-31",
+        "title": "Fin de Año",
+        "description": "Despedida del año viejo y bienvenida del año nuevo.",
+        "category": "efemeride"
+    },
+    {
+        "date": "2025-01-01",
+        "title": "Año Nuevo",
+        "description": "Inicio de un nuevo ciclo. ¡Feliz Año Nuevo!",
+        "category": "efemeride"
+    },
+    {
+        "date": "2025-01-15",
+        "title": "Cumpleaños",
+        "description": "Cumpleaños familiar (Ejemplo Personal).",
+        "category": "personal"
+    }
+]

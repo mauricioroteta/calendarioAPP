@@ -1,0 +1,23 @@
+<div class="app-container">
+    <header class="header-section">
+        <div class="overlay"></div>
+        <img [src]="headerImage$ | async" [@headerAnimation]="headerImage$ | async" (error)="onImageError($event)"
+            alt="Architectural Detail" class="header-img">
+        <div class="app-title-overlay" *ngIf="!(selectedDate$ | async)">
+            <h1>{{ currentYear$ | async }}</h1>
+        </div>
+
+        <div class="description-overlay fade-slide-up" *ngIf="selectedDate$ | async as selectedDate"
+            (click)="closeOverlay()">
+            <div class="overlay-content">
+                <h2 class="overlay-title">{{ selectedDate.title }}</h2>
+                <p class="overlay-desc">{{ selectedDate.description }}</p>
+                <div class="overlay-hint">(Tap to close)</div>
+            </div>
+        </div>
+    </header>
+
+    <main class="calendar-section">
+        <app-calendar></app-calendar>
+    </main>
+</div>

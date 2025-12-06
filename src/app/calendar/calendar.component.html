@@ -1,0 +1,27 @@
+<div class="calendar-container">
+    <div class="calendar-header">
+        <button (click)="prevMonth()" class="nav-btn" [disabled]="!canGoPrev"
+            [style.opacity]="canGoPrev ? 1 : 0.3">&lt;</button>
+        <span class="month-label">{{ getMonthName() | titlecase }}</span>
+        <button (click)="nextMonth()" class="nav-btn" [disabled]="!canGoNext"
+            [style.opacity]="canGoNext ? 1 : 0.3">&gt;</button>
+    </div>
+
+    <div class="weekdays-grid">
+        <div *ngFor="let day of weekDays" class="weekday">{{ day }}</div>
+    </div>
+
+    <div class="calendar-viewport" [@slideAnimation]="{value: monthIndex, params: getAnimationParams()}">
+        <div class="days-grid" *ngFor="let m of [monthIndex]">
+            <div *ngFor="let day of days" class="day-cell" [class.current-month]="day.isCurrentMonth"
+                [class.other-month]="!day.isCurrentMonth" [class.today]="day.isToday" [class.has-event]="!!day.keyDate"
+                [class.selected]="selectedKeyDate === day.keyDate && !!day.keyDate" (click)="onDateClick(day)">
+                <span class="day-number">{{ day.date.getDate() }}</span>
+                <span class="dot" *ngIf="day.keyDate" [ngClass]="day.keyDate.category || 'standard'">
+                </span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Info area removed, moved to overlay in AppComponent -->
+</div>

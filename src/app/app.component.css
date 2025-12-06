@@ -1,0 +1,120 @@
+.app-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.header-section {
+    flex: 0 0 40%;
+    /* 40% height */
+    position: relative;
+    overflow: hidden;
+    background-color: #E0E0E0;
+}
+
+.header-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
+
+.app-title-overlay {
+    position: absolute;
+    bottom: 20px;
+    left: 24px;
+    z-index: 2;
+    color: white;
+}
+
+.app-title-overlay h1 {
+    font-size: 3rem;
+    font-weight: 200;
+    letter-spacing: -0.05em;
+    opacity: 0.9;
+}
+
+.calendar-section {
+    flex: 0 0 60%;
+    /* 60% height */
+    overflow: hidden;
+    background-color: var(--bg-secondary);
+}
+
+/* Description Overlay */
+.description-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.1);
+    /* Darker overlay for readability */
+    backdrop-filter: blur(5px);
+    /* Glass effect */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+    z-index: 20;
+    cursor: pointer;
+}
+
+.overlay-content {
+    max-width: 85%;
+}
+
+.overlay-title {
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 0.8rem;
+    color: #ffd700;
+    /* Gold accent */
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.overlay-desc {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.overlay-hint {
+    font-size: 0.85rem;
+    opacity: 0.8;
+    margin-top: 1rem;
+    font-weight: 300;
+}
+
+/* Animations */
+.fade-slide-up {
+    animation: fadeSlideUp 0.4s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes fadeSlideUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px) scale(0.95);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
