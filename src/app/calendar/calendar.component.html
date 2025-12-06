@@ -1,10 +1,20 @@
 <div class="calendar-container">
     <div class="calendar-header">
-        <button (click)="prevMonth()" class="nav-btn" [disabled]="!canGoPrev"
-            [style.opacity]="canGoPrev ? 1 : 0.3">&lt;</button>
+        <button (click)="prevMonth()" class="nav-btn" [disabled]="!canGoPrev" [style.opacity]="canGoPrev ? 1 : 0.3"
+            aria-label="Previous Month">
+            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="currentColor">
+                <path d="M0 0h24v24H0V0z" fill="none" />
+                <path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12l4.58-4.59z" />
+            </svg>
+        </button>
         <span class="month-label">{{ getMonthName() | titlecase }}</span>
-        <button (click)="nextMonth()" class="nav-btn" [disabled]="!canGoNext"
-            [style.opacity]="canGoNext ? 1 : 0.3">&gt;</button>
+        <button (click)="nextMonth()" class="nav-btn" [disabled]="!canGoNext" [style.opacity]="canGoNext ? 1 : 0.3"
+            aria-label="Next Month">
+            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="currentColor">
+                <path d="M0 0h24v24H0V0z" fill="none" />
+                <path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6-6-6z" />
+            </svg>
+        </button>
     </div>
 
     <div class="weekdays-grid">

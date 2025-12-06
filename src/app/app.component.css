@@ -1,9 +1,11 @@
 .app-container {
     display: flex;
     flex-direction: column;
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
     overflow: hidden;
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-md);
 }
 
 .header-section {

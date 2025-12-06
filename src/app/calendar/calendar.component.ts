@@ -211,6 +211,6 @@ export class CalendarComponent implements OnInit, OnDestroy {
     }
 
     getMonthName(): string {
-        return this.currentDate.toLocaleDateString('es-ES', { month: 'long', year: 'numeric' });
+        return this.currentDate.toLocaleDateString('es-ES', { month: 'long' });
     }
 }
