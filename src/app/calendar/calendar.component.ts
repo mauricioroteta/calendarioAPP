@@ -8,6 +8,7 @@ interface CalendarDay {
     date: Date;
     isCurrentMonth: boolean;
     isToday: boolean;
+    isSunday: boolean;
     keyDate?: KeyDate;
 }
 
@@ -108,10 +109,12 @@ export class CalendarComponent implements OnInit, OnDestroy, OnChanges {
 
         const prevMonthLastDay = new Date(year, month, 0).getDate();
         for (let i = startDayIndex - 1; i >= 0; i--) {
+            const date = new Date(year, month - 1, prevMonthLastDay - i);
             this.days.push({
-                date: new Date(year, month - 1, prevMonthLastDay - i),
+                date: date,
                 isCurrentMonth: false,
-                isToday: false
+                isToday: false,
+                isSunday: date.getDay() === 0
             });
         }
 
@@ -125,6 +128,7 @@ export class CalendarComponent implements OnInit, OnDestroy, OnChanges {
                 date: date,
                 isCurrentMonth: true,
                 isToday: isToday,
+                isSunday: date.getDay() === 0,
                 keyDate: keyDate
             });
         }
@@ -132,10 +136,12 @@ export class CalendarComponent implements OnInit, OnDestroy, OnChanges {
         const remainingCells = 42 - this.days.length;
         if (remainingCells < 42) {
             for (let i = 1; i <= remainingCells; i++) {
+                const date = new Date(year, month + 1, i);
                 this.days.push({
-                    date: new Date(year, month + 1, i),
+                    date: date,
                     isCurrentMonth: false,
-                    isToday: false
+                    isToday: false,
+                    isSunday: date.getDay() === 0
                 });
             }
         }

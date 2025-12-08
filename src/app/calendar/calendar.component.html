@@ -1,4 +1,4 @@
-<div class="h-full flex flex-col bg-white ">
+<div class="h-full flex flex-col bg-white">
     <!-- Weekdays Grid -->
     <div class="grid grid-cols-7 text-center mb-2 px-6 flex-shrink-0 bg-red-100 font-bold">
         <div *ngFor="let day of weekDays"
@@ -19,7 +19,9 @@
                         active:scale-[0.92] transform perspective-1000
                         hover:shadow-lifted">
                 <span class="text-lg font-normal z-[2] transition-colors duration-200"
-                    [class.text-primary]="day.isToday" [class.font-semibold]="day.isToday">
+                    [class.text-primary]="day.isToday && !day.isSunday"
+                    [class.text-red-600]="day.isSunday && !(selectedKeyDate === day.keyDate && !!day.keyDate)"
+                    [class.font-semibold]="day.isToday">
                     {{ day.date.getDate() }}
                 </span>
                 <span *ngIf="day.keyDate" [ngClass]="day.keyDate.category || 'standard'" class="w-[5px] h-[5px] rounded-full absolute bottom-1
