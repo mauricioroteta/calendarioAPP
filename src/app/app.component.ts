@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { CalendarComponent } from './calendar/calendar.component';
-import { CalendarService, KeyDate } from './calendar/calendar.service';
+import { CalendarService, KeyDate, Quote } from './calendar/calendar.service';
 import { Observable, map } from 'rxjs';
 import { trigger, transition, style, animate } from '@angular/animations';
 
@@ -24,6 +24,7 @@ export class AppComponent implements OnInit {
     title = 'CalendarioApp';
     headerImage$: Observable<string> | undefined;
     selectedDate$: Observable<KeyDate | null> | undefined;
+    quote$: Observable<Quote | null> | undefined;
     currentYear$: Observable<number> | undefined;
 
     constructor(private calendarService: CalendarService) { }
@@ -39,10 +40,15 @@ export class AppComponent implements OnInit {
         );
 
         this.selectedDate$ = this.calendarService.selectedDate$;
+        this.quote$ = this.calendarService.showQuote$;
     }
 
     closeOverlay() {
         this.calendarService.setSelectedDate(null);
+    }
+
+    closeQuote() {
+        this.calendarService.setShowQuote(false);
     }
 
     onImageError(event: any) {

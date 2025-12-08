@@ -9,12 +9,20 @@ export interface KeyDate {
     category?: 'efemeride' | 'personal' | 'standard';
 }
 
+export interface Quote {
+    day: number;
+    date: string;
+    quote: string;
+    author: string;
+}
+
 @Injectable({
     providedIn: 'root'
 })
 export class CalendarService {
     private dataUrl = 'assets/config/fechas.json';
     private imagesUrl = 'assets/config/imagenes.json';
+    private quotesUrl = 'assets/config/citas.json';
 
     // State
     private currentDateSubject = new BehaviorSubject<Date>(new Date());
@@ -22,6 +30,15 @@ export class CalendarService {
 
     private selectedDateSubject = new BehaviorSubject<KeyDate | null>(null);
     selectedDate$ = this.selectedDateSubject.asObservable();
+
+    // Quote State
+    private quotes: Quote[] = [];
+    private showQuoteSubject = new BehaviorSubject<Quote | null>(null);
+    showQuote$ = this.showQuoteSubject.asObservable();
+
+    // Daily Quote (inline display)
+    private dailyQuoteSubject = new BehaviorSubject<Quote | null>(null);
+    dailyQuote$ = this.dailyQuoteSubject.asObservable();
 
     // Store available image keys
     private availableImages: Set<string> = new Set();
@@ -32,6 +49,11 @@ export class CalendarService {
         this.http.get<Record<string, string>>(this.imagesUrl).subscribe(images => {
             this.availableImages = new Set(Object.keys(images));
             this.imagesLoadedSubject.next(true);
+        });
+
+        // Load quotes
+        this.http.get<Quote[]>(this.quotesUrl).subscribe(data => {
+            this.quotes = data;
         });
     }
 
@@ -99,6 +121,42 @@ export class CalendarService {
 
     setSelectedDate(keyDate: KeyDate | null) {
         this.selectedDateSubject.next(keyDate);
+        if (keyDate) {
+            this.showQuoteSubject.next(null);
+        }
+    }
+
+    setShowQuote(enabled: boolean, dateContext?: Date) {
+        if (!enabled) {
+            this.showQuoteSubject.next(null);
+            return;
+        }
+
+        const targetDate = dateContext || new Date();
+        const year = targetDate.getFullYear();
+        const month = String(targetDate.getMonth() + 1).padStart(2, '0');
+        const day = String(targetDate.getDate()).padStart(2, '0');
+        const dateStr = `${year}-${month}-${day}`;
+
+        // Try strict match first
+        let quote = this.quotes.find(q => q.date === dateStr);
+
+        this.showQuoteSubject.next(quote || null);
+    }
+
+    setDailyQuote(date: Date) {
+        const year = date.getFullYear();
+        const month = String(date.getMonth() + 1).padStart(2, '0');
+        const day = String(date.getDate()).padStart(2, '0');
+        const dateStr = `${year}-${month}-${day}`;
+
+        console.log('setDailyQuote called with dateStr:', dateStr);
+        console.log('Available quotes:', this.quotes.length);
+
+        const quote = this.quotes.find(q => q.date === dateStr);
+        console.log('Found quote:', quote);
+
+        this.dailyQuoteSubject.next(quote || null);
     }
 
     getCurrentDateValue(): Date {

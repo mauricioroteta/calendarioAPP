@@ -41,6 +41,7 @@ export class CalendarComponent implements OnInit, OnDestroy {
     keyDates: KeyDate[] = [];
     selectedKeyDate: KeyDate | null = null;
     animationDirection: 'left' | 'right' = 'right'; // Default direction
+    dailyQuote: any | null = null; // Quote for inline display
 
     // Helper for *ngFor trackBy to trigger animation
     monthIndex = 0;
@@ -50,13 +51,19 @@ export class CalendarComponent implements OnInit, OnDestroy {
     constructor(private calendarService: CalendarService) { }
 
     ngOnInit(): void {
-        // 1. Subscribe to Dates
+        // Subscribe to Daily Quote first
+        this.calendarService.dailyQuote$.subscribe(quote => {
+            console.log('Daily quote updated:', quote);
+            this.dailyQuote = quote;
+        });
+
+        // Subscribe to Dates
         this.calendarService.getKeyDates().subscribe({
             next: (data) => {
                 this.keyDates = data;
-                // 2. Subscribe to Date changes (triggers regen)
+                // Subscribe to Date changes (triggers regen)
                 this.subscribeToDateChanges();
-                // 3. Subscribe to Selection changes
+                // Subscribe to Selection changes
                 this.subscribeToSelectionChanges();
             },
             error: (err) => {
@@ -173,11 +180,24 @@ export class CalendarComponent implements OnInit, OnDestroy {
     }
 
     onDateClick(day: CalendarDay): void {
+        // Set daily quote for clicked day
+        this.calendarService.setDailyQuote(day.date);
+
+        // Handle event selection if exists
         if (day.keyDate) {
             this.calendarService.setSelectedDate(day.keyDate);
         } else {
             this.calendarService.setSelectedDate(null);
         }
+    }
+
+    showQuote() {
+        let targetDate = new Date();
+        if (this.selectedKeyDate) {
+            const parts = this.selectedKeyDate.date.split('-');
+            targetDate = new Date(parseInt(parts[0]), parseInt(parts[1]) - 1, parseInt(parts[2]));
+        }
+        this.calendarService.setShowQuote(true, targetDate);
     }
 
     // Swipe support

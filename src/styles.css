@@ -1,11 +1,11 @@
 /* Global Styles - Minimalist & Elegant */
 :root {
-  --bg-primary: #EEF2F5;
+  --bg-primary: #ffffff;
   --bg-secondary: #FFFFFF;
   --text-primary: #333333;
   --text-secondary: #757575;
   --accent-color: #000000;
-  --border-color: #E0E0E0;
+  --border-color: #ffffff;
   --highlight-color: #000000;
   /* Modern Aesthetic Variables */
   --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.05);
@@ -31,7 +31,7 @@ body {
   height: 100vh;
   overflow: hidden;
   /* Prevent scrolling for the full app layout */
-  padding: 20px;
+  padding: 10px;
 }
 
 /* Typography */

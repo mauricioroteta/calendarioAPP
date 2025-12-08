@@ -1,0 +1,2192 @@
+[
+  {
+    "day": 1,
+    "date": "2026-01-01",
+    "quote": "La vida es realmente sencilla, pero insistimos en hacerla complicada.",
+    "author": "Confucio"
+  },
+  {
+    "day": 2,
+    "date": "2026-01-02",
+    "quote": "La felicidad depende de nosotros mismos.",
+    "author": "Aristóteles"
+  },
+  {
+    "day": 3,
+    "date": "2026-01-03",
+    "quote": "El que tiene un porqué para vivir puede soportar casi cualquier cómo.",
+    "author": "Friedrich Nietzsche"
+  },
+  {
+    "day": 4,
+    "date": "2026-01-04",
+    "quote": "La medida del amor es amar sin medida.",
+    "author": "San Agustín"
+  },
+  {
+    "day": 5,
+    "date": "2026-01-05",
+    "quote": "No hay nada permanente excepto el cambio.",
+    "author": "Heráclito"
+  },
+  {
+    "day": 6,
+    "date": "2026-01-06",
+    "quote": "La paciencia es amarga, pero sus frutos son dulces.",
+    "author": "Jean-Jacques Rousseau"
+  },
+  {
+    "day": 7,
+    "date": "2026-01-07",
+    "quote": "Conócete a ti mismo.",
+    "author": "Sócrates"
+  },
+  {
+    "day": 8,
+    "date": "2026-01-08",
+    "quote": "La esperanza es el sueño del hombre despierto.",
+    "author": "Aristóteles"
+  },
+  {
+    "day": 9,
+    "date": "2026-01-09",
+    "quote": "La verdadera sabiduría está en reconocer la propia ignorancia.",
+    "author": "Sócrates"
+  },
+  {
+    "day": 10,
+    "date": "2026-01-10",
+    "quote": "La vida es una obra de teatro que no admite ensayos.",
+    "author": "Séneca"
+  },
+  {
+    "day": 11,
+    "date": "2026-01-11",
+    "quote": "La fortuna favorece a los valientes.",
+    "author": "Virgilio"
+  },
+  {
+    "day": 12,
+    "date": "2026-01-12",
+    "quote": "La libertad no consiste en hacer lo que queremos, sino en tener el derecho de hacer lo que debemos.",
+    "author": "Cicerón"
+  },
+  {
+    "day": 13,
+    "date": "2026-01-13",
+    "quote": "No es la carne y la sangre, sino el corazón, lo que nos hace padres e hijos.",
+    "author": "Friedrich Schiller"
+  },
+  {
+    "day": 14,
+    "date": "2026-01-14",
+    "quote": "La educación es el arma más poderosa que puedes usar para cambiar el mundo.",
+    "author": "Nelson Mandela"
+  },
+  {
+    "day": 15,
+    "date": "2026-01-15",
+    "quote": "No cuentes los días, haz que los días cuenten.",
+    "author": "Muhammad Ali"
+  },
+  {
+    "day": 16,
+    "date": "2026-01-16",
+    "quote": "El sabio puede cambiar de opinión; el necio nunca.",
+    "author": "Immanuel Kant"
+  },
+  {
+    "day": 17,
+    "date": "2026-01-17",
+    "quote": "La vida sin música sería un error.",
+    "author": "Friedrich Nietzsche"
+  },
+  {
+    "day": 18,
+    "date": "2026-01-18",
+    "quote": "El conocimiento habla, pero la sabiduría escucha.",
+    "author": "Jimi Hendrix"
+  },
+  {
+    "day": 19,
+    "date": "2026-01-19",
+    "quote": "No hay camino para la paz; la paz es el camino.",
+    "author": "Mahatma Gandhi"
+  },
+  {
+    "day": 20,
+    "date": "2026-01-20",
+    "quote": "La imaginación es más importante que el conocimiento.",
+    "author": "Albert Einstein"
+  },
+  {
+    "day": 21,
+    "date": "2026-01-21",
+    "quote": "La fe es dar el primer paso, incluso cuando no ves toda la escalera.",
+    "author": "Martin Luther King Jr."
+  },
+  {
+    "day": 22,
+    "date": "2026-01-22",
+    "quote": "Somos lo que hacemos repetidamente. La excelencia, entonces, no es un acto, sino un hábito.",
+    "author": "Aristóteles"
+  },
+  {
+    "day": 23,
+    "date": "2026-01-23",
+    "quote": "El éxito es la suma de pequeños esfuerzos repetidos día tras día.",
+    "author": "Robert Collier"
+  },
+  {
+    "day": 24,
+    "date": "2026-01-24",
+    "quote": "No esperes. El tiempo nunca será justo.",
+    "author": "Napoleón Hill"
+  },
+  {
+    "day": 25,
+    "date": "2026-01-25",
+    "quote": "La simplicidad es la máxima sofisticación.",
+    "author": "Leonardo da Vinci"
+  },
+  {
+    "day": 26,
+    "date": "2026-01-26",
+    "quote": "La vida es aquello que te sucede mientras estás ocupado haciendo otros planes.",
+    "author": "John Lennon"
+  },
+  {
+    "day": 27,
+    "date": "2026-01-27",
+    "quote": "La energía y la perseverancia conquistan todas las cosas.",
+    "author": "Benjamin Franklin"
+  },
+  {
+    "day": 28,
+    "date": "2026-01-28",
+    "quote": "Lo esencial es invisible a los ojos.",
+    "author": "Antoine de Saint-Exupéry"
+  },
+  {
+    "day": 29,
+    "date": "2026-01-29",
+    "quote": "El verdadero viaje de descubrimiento consiste no en buscar nuevos paisajes, sino en tener nuevos ojos.",
+    "author": "Marcel Proust"
+  },
+  {
+    "day": 30,
+    "date": "2026-01-30",
+    "quote": "El que teme sufrir, sufre de temor.",
+    "author": "Michel de Montaigne"
+  },
+  {
+    "day": 31,
+    "date": "2026-01-31",
+    "quote": "La paz comienza con una sonrisa.",
+    "author": "Madre Teresa de Calcuta"
+  },
+  {
+    "day": 32,
+    "date": "2026-02-01",
+    "quote": "La verdadera libertad es poder ser lo que realmente somos.",
+    "author": "Jean-Jacques Rousseau"
+  },
+  {
+    "day": 33,
+    "date": "2026-02-02",
+    "quote": "La experiencia es simplemente el nombre que damos a nuestros errores.",
+    "author": "Oscar Wilde"
+  },
+  {
+    "day": 34,
+    "date": "2026-02-03",
+    "quote": "La única manera de hacer un gran trabajo es amar lo que haces.",
+    "author": "Steve Jobs"
+  },
+  {
+    "day": 35,
+    "date": "2026-02-04",
+    "quote": "Piensa, sueña, cree y atrévete.",
+    "author": "Walt Disney"
+  },
+  {
+    "day": 36,
+    "date": "2026-02-05",
+    "quote": "El futuro pertenece a quienes creen en la belleza de sus sueños.",
+    "author": "Eleanor Roosevelt"
+  },
+  {
+    "day": 37,
+    "date": "2026-02-06",
+    "quote": "La disciplina es el puente entre metas y logros.",
+    "author": "Jim Rohn"
+  },
+  {
+    "day": 38,
+    "date": "2026-02-07",
+    "quote": "Nada es tan contagioso como el entusiasmo.",
+    "author": "Samuel Taylor Coleridge"
+  },
+  {
+    "day": 39,
+    "date": "2026-02-08",
+    "quote": "La mente lo es todo. En lo que piensas te conviertes.",
+    "author": "Buda"
+  },
+  {
+    "day": 40,
+    "date": "2026-02-09",
+    "quote": "No existen atajos para ningún lugar que valga la pena.",
+    "author": "Beverly Sills"
+  },
+  {
+    "day": 41,
+    "date": "2026-02-10",
+    "quote": "Haz hoy lo que otros no hacen, y mañana vivirás como otros no pueden.",
+    "author": "Jerry Rice"
+  },
+  {
+    "day": 42,
+    "date": "2026-02-11",
+    "quote": "La gratitud es la memoria del corazón.",
+    "author": "Lao Tsé"
+  },
+  {
+    "day": 43,
+    "date": "2026-02-12",
+    "quote": "El que se conoce a sí mismo es invencible.",
+    "author": "Lao Tsé"
+  },
+  {
+    "day": 44,
+    "date": "2026-02-13",
+    "quote": "El silencio es una fuente de gran fortaleza.",
+    "author": "Lao Tsé"
+  },
+  {
+    "day": 45,
+    "date": "2026-02-14",
+    "quote": "La dificultad es lo que despierta al genio.",
+    "author": "Honoré de Balzac"
+  },
+  {
+    "day": 46,
+    "date": "2026-02-15",
+    "quote": "El hombre se descubre cuando se mide contra un obstáculo.",
+    "author": "Antoine de Saint-Exupéry"
+  },
+  {
+    "day": 47,
+    "date": "2026-02-16",
+    "quote": "La suerte es lo que sucede cuando la preparación se encuentra con la oportunidad.",
+    "author": "Séneca"
+  },
+  {
+    "day": 48,
+    "date": "2026-02-17",
+    "quote": "No hay viento favorable para quien no sabe a dónde va.",
+    "author": "Séneca"
+  },
+  {
+    "day": 49,
+    "date": "2026-02-18",
+    "quote": "La mayor riqueza es vivir contento con poco.",
+    "author": "Platón"
+  },
+  {
+    "day": 50,
+    "date": "2026-02-19",
+    "quote": "La vida no se ha hecho para comprenderla, sino para vivirla.",
+    "author": "Jorge Luis Borges"
+  },
+  {
+    "day": 51,
+    "date": "2026-02-20",
+    "quote": "Somos dueños de nuestro silencio y esclavos de nuestras palabras.",
+    "author": "Aristóteles"
+  },
+  {
+    "day": 52,
+    "date": "2026-02-21",
+    "quote": "La educación es el desarrollo en el hombre de toda la perfección de que su naturaleza es capaz.",
+    "author": "Immanuel Kant"
+  },
+  {
+    "day": 53,
+    "date": "2026-02-22",
+    "quote": "La adversidad tiene el don de despertar talentos que en la prosperidad hubieran permanecido dormidos.",
+    "author": "Horacio"
+  },
+  {
+    "day": 54,
+    "date": "2026-02-23",
+    "quote": "El hombre sabio no se aflige por lo que no tiene, sino que se alegra por lo que posee.",
+    "author": "Epicteto"
+  },
+  {
+    "day": 55,
+    "date": "2026-02-24",
+    "quote": "Donde hay amor hay vida.",
+    "author": "Mahatma Gandhi"
+  },
+  {
+    "day": 56,
+    "date": "2026-02-25",
+    "quote": "Aquel que tiene paz en su conciencia lo tiene todo.",
+    "author": "Don Bosco"
+  },
+  {
+    "day": 57,
+    "date": "2026-02-26",
+    "quote": "Un viaje de mil millas comienza con un solo paso.",
+    "author": "Lao Tsé"
+  },
+  {
+    "day": 58,
+    "date": "2026-02-27",
+    "quote": "La vida es realmente sencilla, pero insistimos en hacerla complicada.",
+    "author": "Confucio"
+  },
+  {
+    "day": 59,
+    "date": "2026-02-28",
+    "quote": "La felicidad depende de nosotros mismos.",
+    "author": "Aristóteles"
+  },
+  {
+    "day": 60,
+    "date": "2026-03-01",
+    "quote": "El que tiene un porqué para vivir puede soportar casi cualquier cómo.",
+    "author": "Friedrich Nietzsche"
+  },
+  {
+    "day": 61,
+    "date": "2026-03-02",
+    "quote": "La medida del amor es amar sin medida.",
+    "author": "San Agustín"
+  },
+  {
+    "day": 62,
+    "date": "2026-03-03",
+    "quote": "No hay nada permanente excepto el cambio.",
+    "author": "Heráclito"
+  },
+  {
+    "day": 63,
+    "date": "2026-03-04",
+    "quote": "La paciencia es amarga, pero sus frutos son dulces.",
+    "author": "Jean-Jacques Rousseau"
+  },
+  {
+    "day": 64,
+    "date": "2026-03-05",
+    "quote": "Conócete a ti mismo.",
+    "author": "Sócrates"
+  },
+  {
+    "day": 65,
+    "date": "2026-03-06",
+    "quote": "La esperanza es el sueño del hombre despierto.",
+    "author": "Aristóteles"
+  },
+  {
+    "day": 66,
+    "date": "2026-03-07",
+    "quote": "La verdadera sabiduría está en reconocer la propia ignorancia.",
+    "author": "Sócrates"
+  },
+  {
+    "day": 67,
+    "date": "2026-03-08",
+    "quote": "La vida es una obra de teatro que no admite ensayos.",
+    "author": "Séneca"
+  },
+  {
+    "day": 68,
+    "date": "2026-03-09",
+    "quote": "La fortuna favorece a los valientes.",
+    "author": "Virgilio"
+  },
+  {
+    "day": 69,
+    "date": "2026-03-10",
+    "quote": "La libertad no consiste en hacer lo que queremos, sino en tener el derecho de hacer lo que debemos.",
+    "author": "Cicerón"
+  },
+  {
+    "day": 70,
+    "date": "2026-03-11",
+    "quote": "No es la carne y la sangre, sino el corazón, lo que nos hace padres e hijos.",
+    "author": "Friedrich Schiller"
+  },
+  {
+    "day": 71,
+    "date": "2026-03-12",
+    "quote": "La educación es el arma más poderosa que puedes usar para cambiar el mundo.",
+    "author": "Nelson Mandela"
+  },
+  {
+    "day": 72,
+    "date": "2026-03-13",
+    "quote": "No cuentes los días, haz que los días cuenten.",
+    "author": "Muhammad Ali"
+  },
+  {
+    "day": 73,
+    "date": "2026-03-14",
+    "quote": "El sabio puede cambiar de opinión; el necio nunca.",
+    "author": "Immanuel Kant"
+  },
+  {
+    "day": 74,
+    "date": "2026-03-15",
+    "quote": "La vida sin música sería un error.",
+    "author": "Friedrich Nietzsche"
+  },
+  {
+    "day": 75,
+    "date": "2026-03-16",
+    "quote": "El conocimiento habla, pero la sabiduría escucha.",
+    "author": "Jimi Hendrix"
+  },
+  {
+    "day": 76,
+    "date": "2026-03-17",
+    "quote": "No hay camino para la paz; la paz es el camino.",
+    "author": "Mahatma Gandhi"
+  },
+  {
+    "day": 77,
+    "date": "2026-03-18",
+    "quote": "La imaginación es más importante que el conocimiento.",
+    "author": "Albert Einstein"
+  },
+  {
+    "day": 78,
+    "date": "2026-03-19",
+    "quote": "La fe es dar el primer paso, incluso cuando no ves toda la escalera.",
+    "author": "Martin Luther King Jr."
+  },
+  {
+    "day": 79,
+    "date": "2026-03-20",
+    "quote": "Somos lo que hacemos repetidamente. La excelencia, entonces, no es un acto, sino un hábito.",
+    "author": "Aristóteles"
+  },
+  {
+    "day": 80,
+    "date": "2026-03-21",
+    "quote": "El éxito es la suma de pequeños esfuerzos repetidos día tras día.",
+    "author": "Robert Collier"
+  },
+  {
+    "day": 81,
+    "date": "2026-03-22",
+    "quote": "No esperes. El tiempo nunca será justo.",
+    "author": "Napoleón Hill"
+  },
+  {
+    "day": 82,
+    "date": "2026-03-23",
+    "quote": "La simplicidad es la máxima sofisticación.",
+    "author": "Leonardo da Vinci"
+  },
+  {
+    "day": 83,
+    "date": "2026-03-24",
+    "quote": "La vida es aquello que te sucede mientras estás ocupado haciendo otros planes.",
+    "author": "John Lennon"
+  },
+  {
+    "day": 84,
+    "date": "2026-03-25",
+    "quote": "La energía y la perseverancia conquistan todas las cosas.",
+    "author": "Benjamin Franklin"
+  },
+  {
+    "day": 85,
+    "date": "2026-03-26",
+    "quote": "Lo esencial es invisible a los ojos.",
+    "author": "Antoine de Saint-Exupéry"
+  },
+  {
+    "day": 86,
+    "date": "2026-03-27",
+    "quote": "El verdadero viaje de descubrimiento consiste no en buscar nuevos paisajes, sino en tener nuevos ojos.",
+    "author": "Marcel Proust"
+  },
+  {
+    "day": 87,
+    "date": "2026-03-28",
+    "quote": "El que teme sufrir, sufre de temor.",
+    "author": "Michel de Montaigne"
+  },
+  {
+    "day": 88,
+    "date": "2026-03-29",
+    "quote": "La paz comienza con una sonrisa.",
+    "author": "Madre Teresa de Calcuta"
+  },
+  {
+    "day": 89,
+    "date": "2026-03-30",
+    "quote": "La verdadera libertad es poder ser lo que realmente somos.",
+    "author": "Jean-Jacques Rousseau"
+  },
+  {
+    "day": 90,
+    "date": "2026-03-31",
+    "quote": "La experiencia es simplemente el nombre que damos a nuestros errores.",
+    "author": "Oscar Wilde"
+  },
+  {
+    "day": 91,
+    "date": "2026-04-01",
+    "quote": "La única manera de hacer un gran trabajo es amar lo que haces.",
+    "author": "Steve Jobs"
+  },
+  {
+    "day": 92,
+    "date": "2026-04-02",
+    "quote": "Piensa, sueña, cree y atrévete.",
+    "author": "Walt Disney"
+  },
+  {
+    "day": 93,
+    "date": "2026-04-03",
+    "quote": "El futuro pertenece a quienes creen en la belleza de sus sueños.",
+    "author": "Eleanor Roosevelt"
+  },
+  {
+    "day": 94,
+    "date": "2026-04-04",
+    "quote": "La disciplina es el puente entre metas y logros.",
+    "author": "Jim Rohn"
+  },
+  {
+    "day": 95,
+    "date": "2026-04-05",
+    "quote": "Nada es tan contagioso como el entusiasmo.",
+    "author": "Samuel Taylor Coleridge"
+  },
+  {
+    "day": 96,
+    "date": "2026-04-06",
+    "quote": "La mente lo es todo. En lo que piensas te conviertes.",
+    "author": "Buda"
+  },
+  {
+    "day": 97,
+    "date": "2026-04-07",
+    "quote": "No existen atajos para ningún lugar que valga la pena.",
+    "author": "Beverly Sills"
+  },
+  {
+    "day": 98,
+    "date": "2026-04-08",
+    "quote": "Haz hoy lo que otros no hacen, y mañana vivirás como otros no pueden.",
+    "author": "Jerry Rice"
+  },
+  {
+    "day": 99,
+    "date": "2026-04-09",
+    "quote": "La gratitud es la memoria del corazón.",
+    "author": "Lao Tsé"
+  },
+  {
+    "day": 100,
+    "date": "2026-04-10",
+    "quote": "El que se conoce a sí mismo es invencible.",
+    "author": "Lao Tsé"
+  },
+  {
+    "day": 101,
+    "date": "2026-04-11",
+    "quote": "El silencio es una fuente de gran fortaleza.",
+    "author": "Lao Tsé"
+  },
+  {
+    "day": 102,
+    "date": "2026-04-12",
+    "quote": "La dificultad es lo que despierta al genio.",
+    "author": "Honoré de Balzac"
+  },
+  {
+    "day": 103,
+    "date": "2026-04-13",
+    "quote": "El hombre se descubre cuando se mide contra un obstáculo.",
+    "author": "Antoine de Saint-Exupéry"
+  },
+  {
+    "day": 104,
+    "date": "2026-04-14",
+    "quote": "La suerte es lo que sucede cuando la preparación se encuentra con la oportunidad.",
+    "author": "Séneca"
+  },
+  {
+    "day": 105,
+    "date": "2026-04-15",
+    "quote": "No hay viento favorable para quien no sabe a dónde va.",
+    "author": "Séneca"
+  },
+  {
+    "day": 106,
+    "date": "2026-04-16",
+    "quote": "La mayor riqueza es vivir contento con poco.",
+    "author": "Platón"
+  },
+  {
+    "day": 107,
+    "date": "2026-04-17",
+    "quote": "La vida no se ha hecho para comprenderla, sino para vivirla.",
+    "author": "Jorge Luis Borges"
+  },
+  {
+    "day": 108,
+    "date": "2026-04-18",
+    "quote": "Somos dueños de nuestro silencio y esclavos de nuestras palabras.",
+    "author": "Aristóteles"
+  },
+  {
+    "day": 109,
+    "date": "2026-04-19",
+    "quote": "La educación es el desarrollo en el hombre de toda la perfección de que su naturaleza es capaz.",
+    "author": "Immanuel Kant"
+  },
+  {
+    "day": 110,
+    "date": "2026-04-20",
+    "quote": "La adversidad tiene el don de despertar talentos que en la prosperidad hubieran permanecido dormidos.",
+    "author": "Horacio"
+  },
+  {
+    "day": 111,
+    "date": "2026-04-21",
+    "quote": "El hombre sabio no se aflige por lo que no tiene, sino que se alegra por lo que posee.",
+    "author": "Epicteto"
+  },
+  {
+    "day": 112,
+    "date": "2026-04-22",
+    "quote": "Donde hay amor hay vida.",
+    "author": "Mahatma Gandhi"
+  },
+  {
+    "day": 113,
+    "date": "2026-04-23",
+    "quote": "Aquel que tiene paz en su conciencia lo tiene todo.",
+    "author": "Don Bosco"
+  },
+  {
+    "day": 114,
+    "date": "2026-04-24",
+    "quote": "Un viaje de mil millas comienza con un solo paso.",
+    "author": "Lao Tsé"
+  },
+  {
+    "day": 115,
+    "date": "2026-04-25",
+    "quote": "La vida es realmente sencilla, pero insistimos en hacerla complicada.",
+    "author": "Confucio"
+  },
+  {
+    "day": 116,
+    "date": "2026-04-26",
+    "quote": "La felicidad depende de nosotros mismos.",
+    "author": "Aristóteles"
+  },
+  {
+    "day": 117,
+    "date": "2026-04-27",
+    "quote": "El que tiene un porqué para vivir puede soportar casi cualquier cómo.",
+    "author": "Friedrich Nietzsche"
+  },
+  {
+    "day": 118,
+    "date": "2026-04-28",
+    "quote": "La medida del amor es amar sin medida.",
+    "author": "San Agustín"
+  },
+  {
+    "day": 119,
+    "date": "2026-04-29",
+    "quote": "No hay nada permanente excepto el cambio.",
+    "author": "Heráclito"
+  },
+  {
+    "day": 120,
+    "date": "2026-04-30",
+    "quote": "La paciencia es amarga, pero sus frutos son dulces.",
+    "author": "Jean-Jacques Rousseau"
+  },
+  {
+    "day": 121,
+    "date": "2026-05-01",
+    "quote": "Conócete a ti mismo.",
+    "author": "Sócrates"
+  },
+  {
+    "day": 122,
+    "date": "2026-05-02",
+    "quote": "La esperanza es el sueño del hombre despierto.",
+    "author": "Aristóteles"
+  },
+  {
+    "day": 123,
+    "date": "2026-05-03",
+    "quote": "La verdadera sabiduría está en reconocer la propia ignorancia.",
+    "author": "Sócrates"
+  },
+  {
+    "day": 124,
+    "date": "2026-05-04",
+    "quote": "La vida es una obra de teatro que no admite ensayos.",
+    "author": "Séneca"
+  },
+  {
+    "day": 125,
+    "date": "2026-05-05",
+    "quote": "La fortuna favorece a los valientes.",
+    "author": "Virgilio"
+  },
+  {
+    "day": 126,
+    "date": "2026-05-06",
+    "quote": "La libertad no consiste en hacer lo que queremos, sino en tener el derecho de hacer lo que debemos.",
+    "author": "Cicerón"
+  },
+  {
+    "day": 127,
+    "date": "2026-05-07",
+    "quote": "No es la carne y la sangre, sino el corazón, lo que nos hace padres e hijos.",
+    "author": "Friedrich Schiller"
+  },
+  {
+    "day": 128,
+    "date": "2026-05-08",
+    "quote": "La educación es el arma más poderosa que puedes usar para cambiar el mundo.",
+    "author": "Nelson Mandela"
+  },
+  {
+    "day": 129,
+    "date": "2026-05-09",
+    "quote": "No cuentes los días, haz que los días cuenten.",
+    "author": "Muhammad Ali"
+  },
+  {
+    "day": 130,
+    "date": "2026-05-10",
+    "quote": "El sabio puede cambiar de opinión; el necio nunca.",
+    "author": "Immanuel Kant"
+  },
+  {
+    "day": 131,
+    "date": "2026-05-11",
+    "quote": "La vida sin música sería un error.",
+    "author": "Friedrich Nietzsche"
+  },
+  {
+    "day": 132,
+    "date": "2026-05-12",
+    "quote": "El conocimiento habla, pero la sabiduría escucha.",
+    "author": "Jimi Hendrix"
+  },
+  {
+    "day": 133,
+    "date": "2026-05-13",
+    "quote": "No hay camino para la paz; la paz es el camino.",
+    "author": "Mahatma Gandhi"
+  },
+  {
+    "day": 134,
+    "date": "2026-05-14",
+    "quote": "La imaginación es más importante que el conocimiento.",
+    "author": "Albert Einstein"
+  },
+  {
+    "day": 135,
+    "date": "2026-05-15",
+    "quote": "La fe es dar el primer paso, incluso cuando no ves toda la escalera.",
+    "author": "Martin Luther King Jr."
+  },
+  {
+    "day": 136,
+    "date": "2026-05-16",
+    "quote": "Somos lo que hacemos repetidamente. La excelencia, entonces, no es un acto, sino un hábito.",
+    "author": "Aristóteles"
+  },
+  {
+    "day": 137,
+    "date": "2026-05-17",
+    "quote": "El éxito es la suma de pequeños esfuerzos repetidos día tras día.",
+    "author": "Robert Collier"
+  },
+  {
+    "day": 138,
+    "date": "2026-05-18",
+    "quote": "No esperes. El tiempo nunca será justo.",
+    "author": "Napoleón Hill"
+  },
+  {
+    "day": 139,
+    "date": "2026-05-19",
+    "quote": "La simplicidad es la máxima sofisticación.",
+    "author": "Leonardo da Vinci"
+  },
+  {
+    "day": 140,
+    "date": "2026-05-20",
+    "quote": "La vida es aquello que te sucede mientras estás ocupado haciendo otros planes.",
+    "author": "John Lennon"
+  },
+  {
+    "day": 141,
+    "date": "2026-05-21",
+    "quote": "La energía y la perseverancia conquistan todas las cosas.",
+    "author": "Benjamin Franklin"
+  },
+  {
+    "day": 142,
+    "date": "2026-05-22",
+    "quote": "Lo esencial es invisible a los ojos.",
+    "author": "Antoine de Saint-Exupéry"
+  },
+  {
+    "day": 143,
+    "date": "2026-05-23",
+    "quote": "El verdadero viaje de descubrimiento consiste no en buscar nuevos paisajes, sino en tener nuevos ojos.",
+    "author": "Marcel Proust"
+  },
+  {
+    "day": 144,
+    "date": "2026-05-24",
+    "quote": "El que teme sufrir, sufre de temor.",
+    "author": "Michel de Montaigne"
+  },
+  {
+    "day": 145,
+    "date": "2026-05-25",
+    "quote": "La paz comienza con una sonrisa.",
+    "author": "Madre Teresa de Calcuta"
+  },
+  {
+    "day": 146,
+    "date": "2026-05-26",
+    "quote": "La verdadera libertad es poder ser lo que realmente somos.",
+    "author": "Jean-Jacques Rousseau"
+  },
+  {
+    "day": 147,
+    "date": "2026-05-27",
+    "quote": "La experiencia es simplemente el nombre que damos a nuestros errores.",
+    "author": "Oscar Wilde"
+  },
+  {
+    "day": 148,
+    "date": "2026-05-28",
+    "quote": "La única manera de hacer un gran trabajo es amar lo que haces.",
+    "author": "Steve Jobs"
+  },
+  {
+    "day": 149,
+    "date": "2026-05-29",
+    "quote": "Piensa, sueña, cree y atrévete.",
+    "author": "Walt Disney"
+  },
+  {
+    "day": 150,
+    "date": "2026-05-30",
+    "quote": "El futuro pertenece a quienes creen en la belleza de sus sueños.",
+    "author": "Eleanor Roosevelt"
+  },
+  {
+    "day": 151,
+    "date": "2026-05-31",
+    "quote": "La disciplina es el puente entre metas y logros.",
+    "author": "Jim Rohn"
+  },
+  {
+    "day": 152,
+    "date": "2026-06-01",
+    "quote": "Nada es tan contagioso como el entusiasmo.",
+    "author": "Samuel Taylor Coleridge"
+  },
+  {
+    "day": 153,
+    "date": "2026-06-02",
+    "quote": "La mente lo es todo. En lo que piensas te conviertes.",
+    "author": "Buda"
+  },
+  {
+    "day": 154,
+    "date": "2026-06-03",
+    "quote": "No existen atajos para ningún lugar que valga la pena.",
+    "author": "Beverly Sills"
+  },
+  {
+    "day": 155,
+    "date": "2026-06-04",
+    "quote": "Haz hoy lo que otros no hacen, y mañana vivirás como otros no pueden.",
+    "author": "Jerry Rice"
+  },
+  {
+    "day": 156,
+    "date": "2026-06-05",
+    "quote": "La gratitud es la memoria del corazón.",
+    "author": "Lao Tsé"
+  },
+  {
+    "day": 157,
+    "date": "2026-06-06",
+    "quote": "El que se conoce a sí mismo es invencible.",
+    "author": "Lao Tsé"
+  },
+  {
+    "day": 158,
+    "date": "2026-06-07",
+    "quote": "El silencio es una fuente de gran fortaleza.",
+    "author": "Lao Tsé"
+  },
+  {
+    "day": 159,
+    "date": "2026-06-08",
+    "quote": "La dificultad es lo que despierta al genio.",
+    "author": "Honoré de Balzac"
+  },
+  {
+    "day": 160,
+    "date": "2026-06-09",
+    "quote": "El hombre se descubre cuando se mide contra un obstáculo.",
+    "author": "Antoine de Saint-Exupéry"
+  },
+  {
+    "day": 161,
+    "date": "2026-06-10",
+    "quote": "La suerte es lo que sucede cuando la preparación se encuentra con la oportunidad.",
+    "author": "Séneca"
+  },
+  {
+    "day": 162,
+    "date": "2026-06-11",
+    "quote": "No hay viento favorable para quien no sabe a dónde va.",
+    "author": "Séneca"
+  },
+  {
+    "day": 163,
+    "date": "2026-06-12",
+    "quote": "La mayor riqueza es vivir contento con poco.",
+    "author": "Platón"
+  },
+  {
+    "day": 164,
+    "date": "2026-06-13",
+    "quote": "La vida no se ha hecho para comprenderla, sino para vivirla.",
+    "author": "Jorge Luis Borges"
+  },
+  {
+    "day": 165,
+    "date": "2026-06-14",
+    "quote": "Somos dueños de nuestro silencio y esclavos de nuestras palabras.",
+    "author": "Aristóteles"
+  },
+  {
+    "day": 166,
+    "date": "2026-06-15",
+    "quote": "La educación es el desarrollo en el hombre de toda la perfección de que su naturaleza es capaz.",
+    "author": "Immanuel Kant"
+  },
+  {
+    "day": 167,
+    "date": "2026-06-16",
+    "quote": "La adversidad tiene el don de despertar talentos que en la prosperidad hubieran permanecido dormidos.",
+    "author": "Horacio"
+  },
+  {
+    "day": 168,
+    "date": "2026-06-17",
+    "quote": "El hombre sabio no se aflige por lo que no tiene, sino que se alegra por lo que posee.",
+    "author": "Epicteto"
+  },
+  {
+    "day": 169,
+    "date": "2026-06-18",
+    "quote": "Donde hay amor hay vida.",
+    "author": "Mahatma Gandhi"
+  },
+  {
+    "day": 170,
+    "date": "2026-06-19",
+    "quote": "Aquel que tiene paz en su conciencia lo tiene todo.",
+    "author": "Don Bosco"
+  },
+  {
+    "day": 171,
+    "date": "2026-06-20",
+    "quote": "Un viaje de mil millas comienza con un solo paso.",
+    "author": "Lao Tsé"
+  },
+  {
+    "day": 172,
+    "date": "2026-06-21",
+    "quote": "La vida es realmente sencilla, pero insistimos en hacerla complicada.",
+    "author": "Confucio"
+  },
+  {
+    "day": 173,
+    "date": "2026-06-22",
+    "quote": "La felicidad depende de nosotros mismos.",
+    "author": "Aristóteles"
+  },
+  {
+    "day": 174,
+    "date": "2026-06-23",
+    "quote": "El que tiene un porqué para vivir puede soportar casi cualquier cómo.",
+    "author": "Friedrich Nietzsche"
+  },
+  {
+    "day": 175,
+    "date": "2026-06-24",
+    "quote": "La medida del amor es amar sin medida.",
+    "author": "San Agustín"
+  },
+  {
+    "day": 176,
+    "date": "2026-06-25",
+    "quote": "No hay nada permanente excepto el cambio.",
+    "author": "Heráclito"
+  },
+  {
+    "day": 177,
+    "date": "2026-06-26",
+    "quote": "La paciencia es amarga, pero sus frutos son dulces.",
+    "author": "Jean-Jacques Rousseau"
+  },
+  {
+    "day": 178,
+    "date": "2026-06-27",
+    "quote": "Conócete a ti mismo.",
+    "author": "Sócrates"
+  },
+  {
+    "day": 179,
+    "date": "2026-06-28",
+    "quote": "La esperanza es el sueño del hombre despierto.",
+    "author": "Aristóteles"
+  },
+  {
+    "day": 180,
+    "date": "2026-06-29",
+    "quote": "La verdadera sabiduría está en reconocer la propia ignorancia.",
+    "author": "Sócrates"
+  },
+  {
+    "day": 181,
+    "date": "2026-06-30",
+    "quote": "La vida es una obra de teatro que no admite ensayos.",
+    "author": "Séneca"
+  },
+  {
+    "day": 182,
+    "date": "2026-07-01",
+    "quote": "La fortuna favorece a los valientes.",
+    "author": "Virgilio"
+  },
+  {
+    "day": 183,
+    "date": "2026-07-02",
+    "quote": "La libertad no consiste en hacer lo que queremos, sino en tener el derecho de hacer lo que debemos.",
+    "author": "Cicerón"
+  },
+  {
+    "day": 184,
+    "date": "2026-07-03",
+    "quote": "No es la carne y la sangre, sino el corazón, lo que nos hace padres e hijos.",
+    "author": "Friedrich Schiller"
+  },
+  {
+    "day": 185,
+    "date": "2026-07-04",
+    "quote": "La educación es el arma más poderosa que puedes usar para cambiar el mundo.",
+    "author": "Nelson Mandela"
+  },
+  {
+    "day": 186,
+    "date": "2026-07-05",
+    "quote": "No cuentes los días, haz que los días cuenten.",
+    "author": "Muhammad Ali"
+  },
+  {
+    "day": 187,
+    "date": "2026-07-06",
+    "quote": "El sabio puede cambiar de opinión; el necio nunca.",
+    "author": "Immanuel Kant"
+  },
+  {
+    "day": 188,
+    "date": "2026-07-07",
+    "quote": "La vida sin música sería un error.",
+    "author": "Friedrich Nietzsche"
+  },
+  {
+    "day": 189,
+    "date": "2026-07-08",
+    "quote": "El conocimiento habla, pero la sabiduría escucha.",
+    "author": "Jimi Hendrix"
+  },
+  {
+    "day": 190,
+    "date": "2026-07-09",
+    "quote": "No hay camino para la paz; la paz es el camino.",
+    "author": "Mahatma Gandhi"
+  },
+  {
+    "day": 191,
+    "date": "2026-07-10",
+    "quote": "La imaginación es más importante que el conocimiento.",
+    "author": "Albert Einstein"
+  },
+  {
+    "day": 192,
+    "date": "2026-07-11",
+    "quote": "La fe es dar el primer paso, incluso cuando no ves toda la escalera.",
+    "author": "Martin Luther King Jr."
+  },
+  {
+    "day": 193,
+    "date": "2026-07-12",
+    "quote": "Somos lo que hacemos repetidamente. La excelencia, entonces, no es un acto, sino un hábito.",
+    "author": "Aristóteles"
+  },
+  {
+    "day": 194,
+    "date": "2026-07-13",
+    "quote": "El éxito es la suma de pequeños esfuerzos repetidos día tras día.",
+    "author": "Robert Collier"
+  },
+  {
+    "day": 195,
+    "date": "2026-07-14",
+    "quote": "No esperes. El tiempo nunca será justo.",
+    "author": "Napoleón Hill"
+  },
+  {
+    "day": 196,
+    "date": "2026-07-15",
+    "quote": "La simplicidad es la máxima sofisticación.",
+    "author": "Leonardo da Vinci"
+  },
+  {
+    "day": 197,
+    "date": "2026-07-16",
+    "quote": "La vida es aquello que te sucede mientras estás ocupado haciendo otros planes.",
+    "author": "John Lennon"
+  },
+  {
+    "day": 198,
+    "date": "2026-07-17",
+    "quote": "La energía y la perseverancia conquistan todas las cosas.",
+    "author": "Benjamin Franklin"
+  },
+  {
+    "day": 199,
+    "date": "2026-07-18",
+    "quote": "Lo esencial es invisible a los ojos.",
+    "author": "Antoine de Saint-Exupéry"
+  },
+  {
+    "day": 200,
+    "date": "2026-07-19",
+    "quote": "El verdadero viaje de descubrimiento consiste no en buscar nuevos paisajes, sino en tener nuevos ojos.",
+    "author": "Marcel Proust"
+  },
+  {
+    "day": 201,
+    "date": "2026-07-20",
+    "quote": "El que teme sufrir, sufre de temor.",
+    "author": "Michel de Montaigne"
+  },
+  {
+    "day": 202,
+    "date": "2026-07-21",
+    "quote": "La paz comienza con una sonrisa.",
+    "author": "Madre Teresa de Calcuta"
+  },
+  {
+    "day": 203,
+    "date": "2026-07-22",
+    "quote": "La verdadera libertad es poder ser lo que realmente somos.",
+    "author": "Jean-Jacques Rousseau"
+  },
+  {
+    "day": 204,
+    "date": "2026-07-23",
+    "quote": "La experiencia es simplemente el nombre que damos a nuestros errores.",
+    "author": "Oscar Wilde"
+  },
+  {
+    "day": 205,
+    "date": "2026-07-24",
+    "quote": "La única manera de hacer un gran trabajo es amar lo que haces.",
+    "author": "Steve Jobs"
+  },
+  {
+    "day": 206,
+    "date": "2026-07-25",
+    "quote": "Piensa, sueña, cree y atrévete.",
+    "author": "Walt Disney"
+  },
+  {
+    "day": 207,
+    "date": "2026-07-26",
+    "quote": "El futuro pertenece a quienes creen en la belleza de sus sueños.",
+    "author": "Eleanor Roosevelt"
+  },
+  {
+    "day": 208,
+    "date": "2026-07-27",
+    "quote": "La disciplina es el puente entre metas y logros.",
+    "author": "Jim Rohn"
+  },
+  {
+    "day": 209,
+    "date": "2026-07-28",
+    "quote": "Nada es tan contagioso como el entusiasmo.",
+    "author": "Samuel Taylor Coleridge"
+  },
+  {
+    "day": 210,
+    "date": "2026-07-29",
+    "quote": "La mente lo es todo. En lo que piensas te conviertes.",
+    "author": "Buda"
+  },
+  {
+    "day": 211,
+    "date": "2026-07-30",
+    "quote": "No existen atajos para ningún lugar que valga la pena.",
+    "author": "Beverly Sills"
+  },
+  {
+    "day": 212,
+    "date": "2026-07-31",
+    "quote": "Haz hoy lo que otros no hacen, y mañana vivirás como otros no pueden.",
+    "author": "Jerry Rice"
+  },
+  {
+    "day": 213,
+    "date": "2026-08-01",
+    "quote": "La gratitud es la memoria del corazón.",
+    "author": "Lao Tsé"
+  },
+  {
+    "day": 214,
+    "date": "2026-08-02",
+    "quote": "El que se conoce a sí mismo es invencible.",
+    "author": "Lao Tsé"
+  },
+  {
+    "day": 215,
+    "date": "2026-08-03",
+    "quote": "El silencio es una fuente de gran fortaleza.",
+    "author": "Lao Tsé"
+  },
+  {
+    "day": 216,
+    "date": "2026-08-04",
+    "quote": "La dificultad es lo que despierta al genio.",
+    "author": "Honoré de Balzac"
+  },
+  {
+    "day": 217,
+    "date": "2026-08-05",
+    "quote": "El hombre se descubre cuando se mide contra un obstáculo.",
+    "author": "Antoine de Saint-Exupéry"
+  },
+  {
+    "day": 218,
+    "date": "2026-08-06",
+    "quote": "La suerte es lo que sucede cuando la preparación se encuentra con la oportunidad.",
+    "author": "Séneca"
+  },
+  {
+    "day": 219,
+    "date": "2026-08-07",
+    "quote": "No hay viento favorable para quien no sabe a dónde va.",
+    "author": "Séneca"
+  },
+  {
+    "day": 220,
+    "date": "2026-08-08",
+    "quote": "La mayor riqueza es vivir contento con poco.",
+    "author": "Platón"
+  },
+  {
+    "day": 221,
+    "date": "2026-08-09",
+    "quote": "La vida no se ha hecho para comprenderla, sino para vivirla.",
+    "author": "Jorge Luis Borges"
+  },
+  {
+    "day": 222,
+    "date": "2026-08-10",
+    "quote": "Somos dueños de nuestro silencio y esclavos de nuestras palabras.",
+    "author": "Aristóteles"
+  },
+  {
+    "day": 223,
+    "date": "2026-08-11",
+    "quote": "La educación es el desarrollo en el hombre de toda la perfección de que su naturaleza es capaz.",
+    "author": "Immanuel Kant"
+  },
+  {
+    "day": 224,
+    "date": "2026-08-12",
+    "quote": "La adversidad tiene el don de despertar talentos que en la prosperidad hubieran permanecido dormidos.",
+    "author": "Horacio"
+  },
+  {
+    "day": 225,
+    "date": "2026-08-13",
+    "quote": "El hombre sabio no se aflige por lo que no tiene, sino que se alegra por lo que posee.",
+    "author": "Epicteto"
+  },
+  {
+    "day": 226,
+    "date": "2026-08-14",
+    "quote": "Donde hay amor hay vida.",
+    "author": "Mahatma Gandhi"
+  },
+  {
+    "day": 227,
+    "date": "2026-08-15",
+    "quote": "Aquel que tiene paz en su conciencia lo tiene todo.",
+    "author": "Don Bosco"
+  },
+  {
+    "day": 228,
+    "date": "2026-08-16",
+    "quote": "Un viaje de mil millas comienza con un solo paso.",
+    "author": "Lao Tsé"
+  },
+  {
+    "day": 229,
+    "date": "2026-08-17",
+    "quote": "La vida es realmente sencilla, pero insistimos en hacerla complicada.",
+    "author": "Confucio"
+  },
+  {
+    "day": 230,
+    "date": "2026-08-18",
+    "quote": "La felicidad depende de nosotros mismos.",
+    "author": "Aristóteles"
+  },
+  {
+    "day": 231,
+    "date": "2026-08-19",
+    "quote": "El que tiene un porqué para vivir puede soportar casi cualquier cómo.",
+    "author": "Friedrich Nietzsche"
+  },
+  {
+    "day": 232,
+    "date": "2026-08-20",
+    "quote": "La medida del amor es amar sin medida.",
+    "author": "San Agustín"
+  },
+  {
+    "day": 233,
+    "date": "2026-08-21",
+    "quote": "No hay nada permanente excepto el cambio.",
+    "author": "Heráclito"
+  },
+  {
+    "day": 234,
+    "date": "2026-08-22",
+    "quote": "La paciencia es amarga, pero sus frutos son dulces.",
+    "author": "Jean-Jacques Rousseau"
+  },
+  {
+    "day": 235,
+    "date": "2026-08-23",
+    "quote": "Conócete a ti mismo.",
+    "author": "Sócrates"
+  },
+  {
+    "day": 236,
+    "date": "2026-08-24",
+    "quote": "La esperanza es el sueño del hombre despierto.",
+    "author": "Aristóteles"
+  },
+  {
+    "day": 237,
+    "date": "2026-08-25",
+    "quote": "La verdadera sabiduría está en reconocer la propia ignorancia.",
+    "author": "Sócrates"
+  },
+  {
+    "day": 238,
+    "date": "2026-08-26",
+    "quote": "La vida es una obra de teatro que no admite ensayos.",
+    "author": "Séneca"
+  },
+  {
+    "day": 239,
+    "date": "2026-08-27",
+    "quote": "La fortuna favorece a los valientes.",
+    "author": "Virgilio"
+  },
+  {
+    "day": 240,
+    "date": "2026-08-28",
+    "quote": "La libertad no consiste en hacer lo que queremos, sino en tener el derecho de hacer lo que debemos.",
+    "author": "Cicerón"
+  },
+  {
+    "day": 241,
+    "date": "2026-08-29",
+    "quote": "No es la carne y la sangre, sino el corazón, lo que nos hace padres e hijos.",
+    "author": "Friedrich Schiller"
+  },
+  {
+    "day": 242,
+    "date": "2026-08-30",
+    "quote": "La educación es el arma más poderosa que puedes usar para cambiar el mundo.",
+    "author": "Nelson Mandela"
+  },
+  {
+    "day": 243,
+    "date": "2026-08-31",
+    "quote": "No cuentes los días, haz que los días cuenten.",
+    "author": "Muhammad Ali"
+  },
+  {
+    "day": 244,
+    "date": "2026-09-01",
+    "quote": "El sabio puede cambiar de opinión; el necio nunca.",
+    "author": "Immanuel Kant"
+  },
+  {
+    "day": 245,
+    "date": "2026-09-02",
+    "quote": "La vida sin música sería un error.",
+    "author": "Friedrich Nietzsche"
+  },
+  {
+    "day": 246,
+    "date": "2026-09-03",
+    "quote": "El conocimiento habla, pero la sabiduría escucha.",
+    "author": "Jimi Hendrix"
+  },
+  {
+    "day": 247,
+    "date": "2026-09-04",
+    "quote": "No hay camino para la paz; la paz es el camino.",
+    "author": "Mahatma Gandhi"
+  },
+  {
+    "day": 248,
+    "date": "2026-09-05",
+    "quote": "La imaginación es más importante que el conocimiento.",
+    "author": "Albert Einstein"
+  },
+  {
+    "day": 249,
+    "date": "2026-09-06",
+    "quote": "La fe es dar el primer paso, incluso cuando no ves toda la escalera.",
+    "author": "Martin Luther King Jr."
+  },
+  {
+    "day": 250,
+    "date": "2026-09-07",
+    "quote": "Somos lo que hacemos repetidamente. La excelencia, entonces, no es un acto, sino un hábito.",
+    "author": "Aristóteles"
+  },
+  {
+    "day": 251,
+    "date": "2026-09-08",
+    "quote": "El éxito es la suma de pequeños esfuerzos repetidos día tras día.",
+    "author": "Robert Collier"
+  },
+  {
+    "day": 252,
+    "date": "2026-09-09",
+    "quote": "No esperes. El tiempo nunca será justo.",
+    "author": "Napoleón Hill"
+  },
+  {
+    "day": 253,
+    "date": "2026-09-10",
+    "quote": "La simplicidad es la máxima sofisticación.",
+    "author": "Leonardo da Vinci"
+  },
+  {
+    "day": 254,
+    "date": "2026-09-11",
+    "quote": "La vida es aquello que te sucede mientras estás ocupado haciendo otros planes.",
+    "author": "John Lennon"
+  },
+  {
+    "day": 255,
+    "date": "2026-09-12",
+    "quote": "La energía y la perseverancia conquistan todas las cosas.",
+    "author": "Benjamin Franklin"
+  },
+  {
+    "day": 256,
+    "date": "2026-09-13",
+    "quote": "Lo esencial es invisible a los ojos.",
+    "author": "Antoine de Saint-Exupéry"
+  },
+  {
+    "day": 257,
+    "date": "2026-09-14",
+    "quote": "El verdadero viaje de descubrimiento consiste no en buscar nuevos paisajes, sino en tener nuevos ojos.",
+    "author": "Marcel Proust"
+  },
+  {
+    "day": 258,
+    "date": "2026-09-15",
+    "quote": "El que teme sufrir, sufre de temor.",
+    "author": "Michel de Montaigne"
+  },
+  {
+    "day": 259,
+    "date": "2026-09-16",
+    "quote": "La paz comienza con una sonrisa.",
+    "author": "Madre Teresa de Calcuta"
+  },
+  {
+    "day": 260,
+    "date": "2026-09-17",
+    "quote": "La verdadera libertad es poder ser lo que realmente somos.",
+    "author": "Jean-Jacques Rousseau"
+  },
+  {
+    "day": 261,
+    "date": "2026-09-18",
+    "quote": "La experiencia es simplemente el nombre que damos a nuestros errores.",
+    "author": "Oscar Wilde"
+  },
+  {
+    "day": 262,
+    "date": "2026-09-19",
+    "quote": "La única manera de hacer un gran trabajo es amar lo que haces.",
+    "author": "Steve Jobs"
+  },
+  {
+    "day": 263,
+    "date": "2026-09-20",
+    "quote": "Piensa, sueña, cree y atrévete.",
+    "author": "Walt Disney"
+  },
+  {
+    "day": 264,
+    "date": "2026-09-21",
+    "quote": "El futuro pertenece a quienes creen en la belleza de sus sueños.",
+    "author": "Eleanor Roosevelt"
+  },
+  {
+    "day": 265,
+    "date": "2026-09-22",
+    "quote": "La disciplina es el puente entre metas y logros.",
+    "author": "Jim Rohn"
+  },
+  {
+    "day": 266,
+    "date": "2026-09-23",
+    "quote": "Nada es tan contagioso como el entusiasmo.",
+    "author": "Samuel Taylor Coleridge"
+  },
+  {
+    "day": 267,
+    "date": "2026-09-24",
+    "quote": "La mente lo es todo. En lo que piensas te conviertes.",
+    "author": "Buda"
+  },
+  {
+    "day": 268,
+    "date": "2026-09-25",
+    "quote": "No existen atajos para ningún lugar que valga la pena.",
+    "author": "Beverly Sills"
+  },
+  {
+    "day": 269,
+    "date": "2026-09-26",
+    "quote": "Haz hoy lo que otros no hacen, y mañana vivirás como otros no pueden.",
+    "author": "Jerry Rice"
+  },
+  {
+    "day": 270,
+    "date": "2026-09-27",
+    "quote": "La gratitud es la memoria del corazón.",
+    "author": "Lao Tsé"
+  },
+  {
+    "day": 271,
+    "date": "2026-09-28",
+    "quote": "El que se conoce a sí mismo es invencible.",
+    "author": "Lao Tsé"
+  },
+  {
+    "day": 272,
+    "date": "2026-09-29",
+    "quote": "El silencio es una fuente de gran fortaleza.",
+    "author": "Lao Tsé"
+  },
+  {
+    "day": 273,
+    "date": "2026-09-30",
+    "quote": "La dificultad es lo que despierta al genio.",
+    "author": "Honoré de Balzac"
+  },
+  {
+    "day": 274,
+    "date": "2026-10-01",
+    "quote": "El hombre se descubre cuando se mide contra un obstáculo.",
+    "author": "Antoine de Saint-Exupéry"
+  },
+  {
+    "day": 275,
+    "date": "2026-10-02",
+    "quote": "La suerte es lo que sucede cuando la preparación se encuentra con la oportunidad.",
+    "author": "Séneca"
+  },
+  {
+    "day": 276,
+    "date": "2026-10-03",
+    "quote": "No hay viento favorable para quien no sabe a dónde va.",
+    "author": "Séneca"
+  },
+  {
+    "day": 277,
+    "date": "2026-10-04",
+    "quote": "La mayor riqueza es vivir contento con poco.",
+    "author": "Platón"
+  },
+  {
+    "day": 278,
+    "date": "2026-10-05",
+    "quote": "La vida no se ha hecho para comprenderla, sino para vivirla.",
+    "author": "Jorge Luis Borges"
+  },
+  {
+    "day": 279,
+    "date": "2026-10-06",
+    "quote": "Somos dueños de nuestro silencio y esclavos de nuestras palabras.",
+    "author": "Aristóteles"
+  },
+  {
+    "day": 280,
+    "date": "2026-10-07",
+    "quote": "La educación es el desarrollo en el hombre de toda la perfección de que su naturaleza es capaz.",
+    "author": "Immanuel Kant"
+  },
+  {
+    "day": 281,
+    "date": "2026-10-08",
+    "quote": "La adversidad tiene el don de despertar talentos que en la prosperidad hubieran permanecido dormidos.",
+    "author": "Horacio"
+  },
+  {
+    "day": 282,
+    "date": "2026-10-09",
+    "quote": "El hombre sabio no se aflige por lo que no tiene, sino que se alegra por lo que posee.",
+    "author": "Epicteto"
+  },
+  {
+    "day": 283,
+    "date": "2026-10-10",
+    "quote": "Donde hay amor hay vida.",
+    "author": "Mahatma Gandhi"
+  },
+  {
+    "day": 284,
+    "date": "2026-10-11",
+    "quote": "Aquel que tiene paz en su conciencia lo tiene todo.",
+    "author": "Don Bosco"
+  },
+  {
+    "day": 285,
+    "date": "2026-10-12",
+    "quote": "Un viaje de mil millas comienza con un solo paso.",
+    "author": "Lao Tsé"
+  },
+  {
+    "day": 286,
+    "date": "2026-10-13",
+    "quote": "La vida es realmente sencilla, pero insistimos en hacerla complicada.",
+    "author": "Confucio"
+  },
+  {
+    "day": 287,
+    "date": "2026-10-14",
+    "quote": "La felicidad depende de nosotros mismos.",
+    "author": "Aristóteles"
+  },
+  {
+    "day": 288,
+    "date": "2026-10-15",
+    "quote": "El que tiene un porqué para vivir puede soportar casi cualquier cómo.",
+    "author": "Friedrich Nietzsche"
+  },
+  {
+    "day": 289,
+    "date": "2026-10-16",
+    "quote": "La medida del amor es amar sin medida.",
+    "author": "San Agustín"
+  },
+  {
+    "day": 290,
+    "date": "2026-10-17",
+    "quote": "No hay nada permanente excepto el cambio.",
+    "author": "Heráclito"
+  },
+  {
+    "day": 291,
+    "date": "2026-10-18",
+    "quote": "La paciencia es amarga, pero sus frutos son dulces.",
+    "author": "Jean-Jacques Rousseau"
+  },
+  {
+    "day": 292,
+    "date": "2026-10-19",
+    "quote": "Conócete a ti mismo.",
+    "author": "Sócrates"
+  },
+  {
+    "day": 293,
+    "date": "2026-10-20",
+    "quote": "La esperanza es el sueño del hombre despierto.",
+    "author": "Aristóteles"
+  },
+  {
+    "day": 294,
+    "date": "2026-10-21",
+    "quote": "La verdadera sabiduría está en reconocer la propia ignorancia.",
+    "author": "Sócrates"
+  },
+  {
+    "day": 295,
+    "date": "2026-10-22",
+    "quote": "La vida es una obra de teatro que no admite ensayos.",
+    "author": "Séneca"
+  },
+  {
+    "day": 296,
+    "date": "2026-10-23",
+    "quote": "La fortuna favorece a los valientes.",
+    "author": "Virgilio"
+  },
+  {
+    "day": 297,
+    "date": "2026-10-24",
+    "quote": "La libertad no consiste en hacer lo que queremos, sino en tener el derecho de hacer lo que debemos.",
+    "author": "Cicerón"
+  },
+  {
+    "day": 298,
+    "date": "2026-10-25",
+    "quote": "No es la carne y la sangre, sino el corazón, lo que nos hace padres e hijos.",
+    "author": "Friedrich Schiller"
+  },
+  {
+    "day": 299,
+    "date": "2026-10-26",
+    "quote": "La educación es el arma más poderosa que puedes usar para cambiar el mundo.",
+    "author": "Nelson Mandela"
+  },
+  {
+    "day": 300,
+    "date": "2026-10-27",
+    "quote": "No cuentes los días, haz que los días cuenten.",
+    "author": "Muhammad Ali"
+  },
+  {
+    "day": 301,
+    "date": "2026-10-28",
+    "quote": "El sabio puede cambiar de opinión; el necio nunca.",
+    "author": "Immanuel Kant"
+  },
+  {
+    "day": 302,
+    "date": "2026-10-29",
+    "quote": "La vida sin música sería un error.",
+    "author": "Friedrich Nietzsche"
+  },
+  {
+    "day": 303,
+    "date": "2026-10-30",
+    "quote": "El conocimiento habla, pero la sabiduría escucha.",
+    "author": "Jimi Hendrix"
+  },
+  {
+    "day": 304,
+    "date": "2026-10-31",
+    "quote": "No hay camino para la paz; la paz es el camino.",
+    "author": "Mahatma Gandhi"
+  },
+  {
+    "day": 305,
+    "date": "2026-11-01",
+    "quote": "La imaginación es más importante que el conocimiento.",
+    "author": "Albert Einstein"
+  },
+  {
+    "day": 306,
+    "date": "2026-11-02",
+    "quote": "La fe es dar el primer paso, incluso cuando no ves toda la escalera.",
+    "author": "Martin Luther King Jr."
+  },
+  {
+    "day": 307,
+    "date": "2026-11-03",
+    "quote": "Somos lo que hacemos repetidamente. La excelencia, entonces, no es un acto, sino un hábito.",
+    "author": "Aristóteles"
+  },
+  {
+    "day": 308,
+    "date": "2026-11-04",
+    "quote": "El éxito es la suma de pequeños esfuerzos repetidos día tras día.",
+    "author": "Robert Collier"
+  },
+  {
+    "day": 309,
+    "date": "2026-11-05",
+    "quote": "No esperes. El tiempo nunca será justo.",
+    "author": "Napoleón Hill"
+  },
+  {
+    "day": 310,
+    "date": "2026-11-06",
+    "quote": "La simplicidad es la máxima sofisticación.",
+    "author": "Leonardo da Vinci"
+  },
+  {
+    "day": 311,
+    "date": "2026-11-07",
+    "quote": "La vida es aquello que te sucede mientras estás ocupado haciendo otros planes.",
+    "author": "John Lennon"
+  },
+  {
+    "day": 312,
+    "date": "2026-11-08",
+    "quote": "La energía y la perseverancia conquistan todas las cosas.",
+    "author": "Benjamin Franklin"
+  },
+  {
+    "day": 313,
+    "date": "2026-11-09",
+    "quote": "Lo esencial es invisible a los ojos.",
+    "author": "Antoine de Saint-Exupéry"
+  },
+  {
+    "day": 314,
+    "date": "2026-11-10",
+    "quote": "El verdadero viaje de descubrimiento consiste no en buscar nuevos paisajes, sino en tener nuevos ojos.",
+    "author": "Marcel Proust"
+  },
+  {
+    "day": 315,
+    "date": "2026-11-11",
+    "quote": "El que teme sufrir, sufre de temor.",
+    "author": "Michel de Montaigne"
+  },
+  {
+    "day": 316,
+    "date": "2026-11-12",
+    "quote": "La paz comienza con una sonrisa.",
+    "author": "Madre Teresa de Calcuta"
+  },
+  {
+    "day": 317,
+    "date": "2026-11-13",
+    "quote": "La verdadera libertad es poder ser lo que realmente somos.",
+    "author": "Jean-Jacques Rousseau"
+  },
+  {
+    "day": 318,
+    "date": "2026-11-14",
+    "quote": "La experiencia es simplemente el nombre que damos a nuestros errores.",
+    "author": "Oscar Wilde"
+  },
+  {
+    "day": 319,
+    "date": "2026-11-15",
+    "quote": "La única manera de hacer un gran trabajo es amar lo que haces.",
+    "author": "Steve Jobs"
+  },
+  {
+    "day": 320,
+    "date": "2026-11-16",
+    "quote": "Piensa, sueña, cree y atrévete.",
+    "author": "Walt Disney"
+  },
+  {
+    "day": 321,
+    "date": "2026-11-17",
+    "quote": "El futuro pertenece a quienes creen en la belleza de sus sueños.",
+    "author": "Eleanor Roosevelt"
+  },
+  {
+    "day": 322,
+    "date": "2026-11-18",
+    "quote": "La disciplina es el puente entre metas y logros.",
+    "author": "Jim Rohn"
+  },
+  {
+    "day": 323,
+    "date": "2026-11-19",
+    "quote": "Nada es tan contagioso como el entusiasmo.",
+    "author": "Samuel Taylor Coleridge"
+  },
+  {
+    "day": 324,
+    "date": "2026-11-20",
+    "quote": "La mente lo es todo. En lo que piensas te conviertes.",
+    "author": "Buda"
+  },
+  {
+    "day": 325,
+    "date": "2026-11-21",
+    "quote": "No existen atajos para ningún lugar que valga la pena.",
+    "author": "Beverly Sills"
+  },
+  {
+    "day": 326,
+    "date": "2026-11-22",
+    "quote": "Haz hoy lo que otros no hacen, y mañana vivirás como otros no pueden.",
+    "author": "Jerry Rice"
+  },
+  {
+    "day": 327,
+    "date": "2026-11-23",
+    "quote": "La gratitud es la memoria del corazón.",
+    "author": "Lao Tsé"
+  },
+  {
+    "day": 328,
+    "date": "2026-11-24",
+    "quote": "El que se conoce a sí mismo es invencible.",
+    "author": "Lao Tsé"
+  },
+  {
+    "day": 329,
+    "date": "2026-11-25",
+    "quote": "El silencio es una fuente de gran fortaleza.",
+    "author": "Lao Tsé"
+  },
+  {
+    "day": 330,
+    "date": "2026-11-26",
+    "quote": "La dificultad es lo que despierta al genio.",
+    "author": "Honoré de Balzac"
+  },
+  {
+    "day": 331,
+    "date": "2026-11-27",
+    "quote": "El hombre se descubre cuando se mide contra un obstáculo.",
+    "author": "Antoine de Saint-Exupéry"
+  },
+  {
+    "day": 332,
+    "date": "2026-11-28",
+    "quote": "La suerte es lo que sucede cuando la preparación se encuentra con la oportunidad.",
+    "author": "Séneca"
+  },
+  {
+    "day": 333,
+    "date": "2026-11-29",
+    "quote": "No hay viento favorable para quien no sabe a dónde va.",
+    "author": "Séneca"
+  },
+  {
+    "day": 334,
+    "date": "2026-11-30",
+    "quote": "La mayor riqueza es vivir contento con poco.",
+    "author": "Platón"
+  },
+  {
+    "day": 335,
+    "date": "2026-12-01",
+    "quote": "La vida no se ha hecho para comprenderla, sino para vivirla.",
+    "author": "Jorge Luis Borges"
+  },
+  {
+    "day": 336,
+    "date": "2026-12-02",
+    "quote": "Somos dueños de nuestro silencio y esclavos de nuestras palabras.",
+    "author": "Aristóteles"
+  },
+  {
+    "day": 337,
+    "date": "2026-12-03",
+    "quote": "La educación es el desarrollo en el hombre de toda la perfección de que su naturaleza es capaz.",
+    "author": "Immanuel Kant"
+  },
+  {
+    "day": 338,
+    "date": "2026-12-04",
+    "quote": "La adversidad tiene el don de despertar talentos que en la prosperidad hubieran permanecido dormidos.",
+    "author": "Horacio"
+  },
+  {
+    "day": 339,
+    "date": "2026-12-05",
+    "quote": "El hombre sabio no se aflige por lo que no tiene, sino que se alegra por lo que posee.",
+    "author": "Epicteto"
+  },
+  {
+    "day": 340,
+    "date": "2026-12-06",
+    "quote": "Donde hay amor hay vida.",
+    "author": "Mahatma Gandhi"
+  },
+  {
+    "day": 341,
+    "date": "2026-12-07",
+    "quote": "Aquel que tiene paz en su conciencia lo tiene todo.",
+    "author": "Don Bosco"
+  },
+  {
+    "day": 342,
+    "date": "2026-12-08",
+    "quote": "Un viaje de mil millas comienza con un solo paso.",
+    "author": "Lao Tsé"
+  },
+  {
+    "day": 343,
+    "date": "2026-12-09",
+    "quote": "La vida es realmente sencilla, pero insistimos en hacerla complicada.",
+    "author": "Confucio"
+  },
+  {
+    "day": 344,
+    "date": "2026-12-10",
+    "quote": "La felicidad depende de nosotros mismos.",
+    "author": "Aristóteles"
+  },
+  {
+    "day": 345,
+    "date": "2026-12-11",
+    "quote": "El que tiene un porqué para vivir puede soportar casi cualquier cómo.",
+    "author": "Friedrich Nietzsche"
+  },
+  {
+    "day": 346,
+    "date": "2026-12-12",
+    "quote": "La medida del amor es amar sin medida.",
+    "author": "San Agustín"
+  },
+  {
+    "day": 347,
+    "date": "2026-12-13",
+    "quote": "No hay nada permanente excepto el cambio.",
+    "author": "Heráclito"
+  },
+  {
+    "day": 348,
+    "date": "2026-12-14",
+    "quote": "La paciencia es amarga, pero sus frutos son dulces.",
+    "author": "Jean-Jacques Rousseau"
+  },
+  {
+    "day": 349,
+    "date": "2026-12-15",
+    "quote": "Conócete a ti mismo.",
+    "author": "Sócrates"
+  },
+  {
+    "day": 350,
+    "date": "2026-12-16",
+    "quote": "La esperanza es el sueño del hombre despierto.",
+    "author": "Aristóteles"
+  },
+  {
+    "day": 351,
+    "date": "2026-12-17",
+    "quote": "La verdadera sabiduría está en reconocer la propia ignorancia.",
+    "author": "Sócrates"
+  },
+  {
+    "day": 352,
+    "date": "2026-12-18",
+    "quote": "La vida es una obra de teatro que no admite ensayos.",
+    "author": "Séneca"
+  },
+  {
+    "day": 353,
+    "date": "2026-12-19",
+    "quote": "La fortuna favorece a los valientes.",
+    "author": "Virgilio"
+  },
+  {
+    "day": 354,
+    "date": "2026-12-20",
+    "quote": "La libertad no consiste en hacer lo que queremos, sino en tener el derecho de hacer lo que debemos.",
+    "author": "Cicerón"
+  },
+  {
+    "day": 355,
+    "date": "2026-12-21",
+    "quote": "No es la carne y la sangre, sino el corazón, lo que nos hace padres e hijos.",
+    "author": "Friedrich Schiller"
+  },
+  {
+    "day": 356,
+    "date": "2026-12-22",
+    "quote": "La educación es el arma más poderosa que puedes usar para cambiar el mundo.",
+    "author": "Nelson Mandela"
+  },
+  {
+    "day": 357,
+    "date": "2026-12-23",
+    "quote": "No cuentes los días, haz que los días cuenten.",
+    "author": "Muhammad Ali"
+  },
+  {
+    "day": 358,
+    "date": "2026-12-24",
+    "quote": "El sabio puede cambiar de opinión; el necio nunca.",
+    "author": "Immanuel Kant"
+  },
+  {
+    "day": 359,
+    "date": "2026-12-25",
+    "quote": "La vida sin música sería un error.",
+    "author": "Friedrich Nietzsche"
+  },
+  {
+    "day": 360,
+    "date": "2026-12-26",
+    "quote": "El conocimiento habla, pero la sabiduría escucha.",
+    "author": "Jimi Hendrix"
+  },
+  {
+    "day": 361,
+    "date": "2026-12-27",
+    "quote": "No hay camino para la paz; la paz es el camino.",
+    "author": "Mahatma Gandhi"
+  },
+  {
+    "day": 362,
+    "date": "2026-12-28",
+    "quote": "La imaginación es más importante que el conocimiento.",
+    "author": "Albert Einstein"
+  },
+  {
+    "day": 363,
+    "date": "2026-12-29",
+    "quote": "La fe es dar el primer paso, incluso cuando no ves toda la escalera.",
+    "author": "Martin Luther King Jr."
+  },
+  {
+    "day": 364,
+    "date": "2026-12-30",
+    "quote": "Somos lo que hacemos repetidamente. La excelencia, entonces, no es un acto, sino un hábito.",
+    "author": "Aristóteles"
+  },
+  {
+    "day": 365,
+    "date": "2026-12-31",
+    "quote": "El éxito es la suma de pequeños esfuerzos repetidos día tras día.",
+    "author": "Robert Collier"
+  }
+]

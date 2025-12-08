@@ -1,15 +1,13 @@
 .app-container {
-    display: flex;
     flex-direction: column;
     height: 100%;
     width: 100%;
     overflow: hidden;
     border-radius: var(--radius-lg);
-    box-shadow: var(--shadow-md);
 }
 
 .header-section {
-    flex: 0 0 40%;
+    flex: 5% 5% 60%;
     /* 40% height */
     position: relative;
     overflow: hidden;
@@ -49,7 +47,7 @@
 }
 
 .calendar-section {
-    flex: 0 0 60%;
+    flex: 10% 0 70%;
     /* 60% height */
     overflow: hidden;
     background-color: var(--bg-secondary);
@@ -78,20 +76,20 @@
 }
 
 .overlay-content {
-    max-width: 85%;
+    max-width: 90%;
 }
 
 .overlay-title {
-    font-size: 1.8rem;
+    font-size: 2.5rem;
     font-weight: 600;
     margin-bottom: 0.8rem;
-    color: #ffd700;
+    color: #ff0000;
     /* Gold accent */
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .overlay-desc {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     line-height: 1.6;
     margin-bottom: 1.5rem;
     text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
@@ -119,4 +117,51 @@
         opacity: 1;
         transform: translateY(0) scale(1);
     }
+}
+
+/* Full Screen Quote Overlay */
+.quote-overlay {
+    position: fixed;
+    /* Fixed to cover viewport */
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.95);
+    /* High opacity as requested */
+    backdrop-filter: blur(8px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+    z-index: 9999;
+    /* Highest priority */
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+}
+
+.quote-text {
+    font-size: 2rem;
+    /* Larger text */
+    font-style: italic;
+    font-family: 'Times New Roman', serif;
+    margin-bottom: 32px;
+    line-height: 1.4;
+    max-width: 800px;
+}
+
+.quote-author {
+    font-size: 1.5rem;
+    opacity: 0.8;
+    text-align: right;
+    width: 100%;
+    max-width: 600px;
+    font-family: 'Dancing Script', cursive, serif;
+    /* Signature style if available, else serif */
+    margin-top: 16px;
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    padding-top: 16px;
 }
