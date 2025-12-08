@@ -1,4 +1,4 @@
-import { Component, OnInit, OnDestroy, HostListener } from '@angular/core';
+import { Component, OnInit, OnDestroy, Input, SimpleChanges, OnChanges } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { CalendarService, KeyDate } from './calendar.service';
 import { Subscription } from 'rxjs';
@@ -34,16 +34,17 @@ interface CalendarDay {
         ])
     ]
 })
-export class CalendarComponent implements OnInit, OnDestroy {
-    currentDate = new Date(); // Local mirror of service state for rendering
+export class CalendarComponent implements OnInit, OnDestroy, OnChanges {
+    @Input() displayDate: Date = new Date();
+
+    currentDate = new Date();
     days: CalendarDay[] = [];
     weekDays = ['L', 'M', 'M', 'J', 'V', 'S', 'D'];
     keyDates: KeyDate[] = [];
     selectedKeyDate: KeyDate | null = null;
-    animationDirection: 'left' | 'right' = 'right'; // Default direction
-    dailyQuote: any | null = null; // Quote for inline display
+    animationDirection: 'left' | 'right' = 'right';
+    dailyQuote: any | null = null;
 
-    // Helper for *ngFor trackBy to trigger animation
     monthIndex = 0;
 
     private dateSubscription: Subscription | undefined;
@@ -51,7 +52,7 @@ export class CalendarComponent implements OnInit, OnDestroy {
     constructor(private calendarService: CalendarService) { }
 
     ngOnInit(): void {
-        // Subscribe to Daily Quote first
+        // Subscribe to Daily Quote
         this.calendarService.dailyQuote$.subscribe(quote => {
             console.log('Daily quote updated:', quote);
             this.dailyQuote = quote;
@@ -61,16 +62,24 @@ export class CalendarComponent implements OnInit, OnDestroy {
         this.calendarService.getKeyDates().subscribe({
             next: (data) => {
                 this.keyDates = data;
-                // Subscribe to Date changes (triggers regen)
-                this.subscribeToDateChanges();
-                // Subscribe to Selection changes
+                this.currentDate = this.displayDate;
+                this.generateCalendar();
                 this.subscribeToSelectionChanges();
             },
             error: (err) => {
                 console.error('Error loading dates', err);
-                this.subscribeToDateChanges(); // Generate anyway
+                this.currentDate = this.displayDate;
+                this.generateCalendar();
             }
         });
+    }
+
+    ngOnChanges(changes: SimpleChanges): void {
+        if (changes['displayDate'] && !changes['displayDate'].firstChange) {
+            this.currentDate = this.displayDate;
+            this.generateCalendar();
+            this.monthIndex++;
+        }
     }
 
     ngOnDestroy(): void {
@@ -82,16 +91,6 @@ export class CalendarComponent implements OnInit, OnDestroy {
     subscribeToSelectionChanges() {
         this.calendarService.selectedDate$.subscribe(selected => {
             this.selectedKeyDate = selected;
-        });
-    }
-
-    subscribeToDateChanges() {
-        this.dateSubscription = this.calendarService.currentDate$.subscribe(newDate => {
-            // Determine direction based on comparison if needed, but we rely on explicit set in next/prev methods
-            this.currentDate = newDate;
-            this.generateCalendar();
-            // Increment index to force re-render for animation if using distinct view
-            this.monthIndex++;
         });
     }
 
@@ -173,11 +172,6 @@ export class CalendarComponent implements OnInit, OnDestroy {
         return this.calendarService.canGoPrev();
     }
 
-    getAnimationParams() {
-        return this.animationDirection === 'right'
-            ? { enterStart: 100, leaveEnd: -100 }
-            : { enterStart: -100, leaveEnd: 100 };
-    }
 
     onDateClick(day: CalendarDay): void {
         // Set daily quote for clicked day
@@ -188,45 +182,6 @@ export class CalendarComponent implements OnInit, OnDestroy {
             this.calendarService.setSelectedDate(day.keyDate);
         } else {
             this.calendarService.setSelectedDate(null);
-        }
-    }
-
-    showQuote() {
-        let targetDate = new Date();
-        if (this.selectedKeyDate) {
-            const parts = this.selectedKeyDate.date.split('-');
-            targetDate = new Date(parseInt(parts[0]), parseInt(parts[1]) - 1, parseInt(parts[2]));
-        }
-        this.calendarService.setShowQuote(true, targetDate);
-    }
-
-    // Swipe support
-    private touchStartX = 0;
-    private touchEndX = 0;
-
-    @HostListener('touchstart', ['$event'])
-    onTouchStart(event: TouchEvent) {
-        this.touchStartX = event.changedTouches[0].screenX;
-    }
-
-    @HostListener('touchend', ['$event'])
-    onTouchEnd(event: TouchEvent) {
-        this.touchEndX = event.changedTouches[0].screenX;
-        this.handleSwipe();
-    }
-
-    private handleSwipe() {
-        const threshold = 50; // Min distance to be considered a swipe
-        const swipeDistance = this.touchEndX - this.touchStartX;
-
-        if (Math.abs(swipeDistance) > threshold) {
-            if (swipeDistance < 0) {
-                // Swipe Left -> Next Month
-                this.nextMonth();
-            } else {
-                // Swipe Right -> Prev Month
-                this.prevMonth();
-            }
         }
     }
 

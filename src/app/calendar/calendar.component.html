@@ -1,49 +1,47 @@
-<div class="calendar-container">
-    <div>
-        <div class="calendar-header">
-            <button (click)="prevMonth()" class="nav-btn" [disabled]="!canGoPrev" [style.opacity]="canGoPrev ? 1 : 0.3"
-                aria-label="Previous Month">
-                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px"
-                    fill="currentColor">
-                    <path d="M0 0h24v24H0V0z" fill="none" />
-                    <path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12l4.58-4.59z" />
-                </svg>
-            </button>
-            <span class="month-label">{{ getMonthName() | titlecase }}</span>
-            <button (click)="nextMonth()" class="nav-btn" [disabled]="!canGoNext" [style.opacity]="canGoNext ? 1 : 0.3"
-                aria-label="Next Month">
-                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px"
-                    fill="currentColor">
-                    <path d="M0 0h24v24H0V0z" fill="none" />
-                    <path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6-6-6z" />
-                </svg>
-            </button>
+<div class="h-full flex flex-col bg-white">
+    <!-- Weekdays Grid -->
+    <div class="grid grid-cols-7 text-center mb-2 px-6 flex-shrink-0">
+        <div *ngFor="let day of weekDays"
+            class="text-lg text-secondary font-semibold uppercase tracking-wide opacity-90">
+            {{ day }}
         </div>
+    </div>
 
-        <div class="weekdays-grid">
-            <div *ngFor="let day of weekDays" class="weekday">{{ day }}</div>
-        </div>
-
-        <div class="calendar-viewport" [@slideAnimation]="{value: monthIndex, params: getAnimationParams()}">
-            <div class="days-grid" *ngFor="let m of [monthIndex]">
-                <div *ngFor="let day of days" class="day-cell" [class.current-month]="day.isCurrentMonth"
-                    [class.other-month]="!day.isCurrentMonth" [class.today]="day.isToday"
-                    [class.has-event]="!!day.keyDate"
-                    [class.selected]="selectedKeyDate === day.keyDate && !!day.keyDate" (click)="onDateClick(day)">
-                    <span class="day-number">{{ day.date.getDate() }}</span>
-                    <span class="dot" *ngIf="day.keyDate" [ngClass]="day.keyDate.category || 'standard'">
-                    </span>
-                </div>
+    <!-- Calendar Days Grid -->
+    <div class="flex-1 px-6 overflow-hidden">
+        <div class="grid grid-cols-7 text-center h-full gap-y-1">
+            <div *ngFor="let day of days" (click)="onDateClick(day)" [class.opacity-10]="!day.isCurrentMonth"
+                [class.pointer-events-none]="!day.isCurrentMonth" [class.bg-red-100]="day.isToday"
+                [class.bg-black]="selectedKeyDate === day.keyDate && !!day.keyDate"
+                [class.text-white]="selectedKeyDate === day.keyDate && !!day.keyDate" class="flex flex-col justify-center items-center cursor-pointer
+                        rounded-[50px] relative transition-all duration-200
+                        select-none hover:bg-gray-100 hover:-translate-y-0.5
+                        active:scale-[0.92] transform perspective-1000
+                        hover:shadow-lifted">
+                <span class="text-lg font-normal z-[2] transition-colors duration-200"
+                    [class.text-primary]="day.isToday" [class.font-semibold]="day.isToday">
+                    {{ day.date.getDate() }}
+                </span>
+                <span *ngIf="day.keyDate" [ngClass]="day.keyDate.category || 'standard'" class="w-[5px] h-[5px] rounded-full absolute bottom-1
+                             transition-transform duration-200
+                             hover:scale-125
+                             dot"></span>
             </div>
         </div>
     </div>
 
-    <div class="actions-area">
-        <div *ngIf="dailyQuote" class="daily-quote-container">
-            <p class="mini-quote">"{{ dailyQuote.quote }}"</p>
-            <p class="mini-author">- {{ dailyQuote.author }}</p>
+    <!-- Quote Display Area -->
+    <div class="pt-3 pb-4 px-6 min-h-[80px] flex justify-center items-center text-center flex-shrink-0">
+        <div *ngIf="dailyQuote" class="animate-slide-up-fade">
+            <p class="text-sm italic text-primary mb-1 font-serif leading-snug
+                      drop-shadow-sm">
+                "{{ dailyQuote.quote }}"
+            </p>
+            <p class="text-xs text-secondary font-medium">
+                - {{ dailyQuote.author }}
+            </p>
         </div>
-        <div *ngIf="!dailyQuote" class="placeholder-quote">
+        <div *ngIf="!dailyQuote" class="text-xs text-secondary opacity-50 italic">
             Selecciona un día para ver la cita
         </div>
     </div>

@@ -1,30 +1,110 @@
-<div class="app-container">
-    <header class="header-section">
-        <div class="overlay"></div>
-        <img [src]="headerImage$ | async" [@headerAnimation]="headerImage$ | async" (error)="onImageError($event)"
-            alt="Architectural Detail" class="header-img">
-        <div class="app-title-overlay" *ngIf="!(selectedDate$ | async)">
-            <h1>{{ currentYear$ | async }}</h1>
-        </div>
+<div class="h-screen w-screen overflow-hidden perspective-[2500px] bg-white">
+    <!-- 3D Card Carousel Container -->
+    <div class="relative h-full w-full preserve-3d">
+        <!-- Single Month Card with Enhanced 3D Animation -->
+        <div *ngIf="currentMonthCard" [@cardSlide]="animationState + currentCardIndex" class="absolute inset-2.5 rounded-3xl shadow-3d overflow-hidden
+                    bg-white transform-gpu preserve-3d
+                    transition-all duration-700 ease-smooth">
 
-        <div class="description-overlay fade-slide-up" *ngIf="selectedDate$ | async as selectedDate"
-            (click)="closeOverlay()">
-            <div class="overlay-content">
-                <h2 class="overlay-title">{{ selectedDate.title }}</h2>
-                <p class="overlay-desc">{{ selectedDate.description }}</p>
+            <!-- Card Content: Header Image + Calendar + Quotes -->
+            <div class="h-full w-full flex flex-col">
+
+                <!-- Header Image Section (40%) -->
+                <div class="relative h-[40%] overflow-hidden bg-gray-200 shadow-deep">
+                    <!-- Dark overlay -->
+                    <div class="absolute inset-0 bg-black/10 z-[1]"></div>
+
+                    <!-- Header image with 3D effect -->
+                    <img [src]="currentMonthCard.headerImage" (error)="onImageError($event)" alt="Imagen del mes"
+                        class="w-full h-full object-cover block">
+
+                    <!-- Year overlay with 3D text shadow -->
+                    <div class="absolute bottom-3 left-4 z-[2] text-white" *ngIf="!(selectedDate$ | async)">
+                        <h1 class="text-4xl font-extralight tracking-tighter opacity-90 
+                                   drop-shadow-[0_4px_8px_rgba(0,0,0,0.5)]">
+                            {{ currentMonthCard.year }}
+                        </h1>
+                    </div>
+
+                    <!-- Event description overlay -->
+                    <div class="absolute inset-0 bg-black/10 backdrop-blur-md
+                                flex flex-col justify-center items-center
+                                text-white text-center px-8 z-[20] cursor-pointer
+                                animate-fade-slide-up" *ngIf="selectedDate$ | async as selectedDate"
+                        (click)="closeOverlay()">
+                        <div class="max-w-[90%] transform hover:scale-105 transition-transform duration-300">
+                            <h2 class="text-3xl font-semibold mb-2 text-red-500
+                                       drop-shadow-[0_2px_4px_rgba(0,0,0,0.5)]">
+                                {{ selectedDate.title }}
+                            </h2>
+                            <p class="text-lg leading-relaxed mb-4
+                                      drop-shadow-[0_1px_2px_rgba(0,0,0,0.5)]">
+                                {{ selectedDate.description }}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Calendar Section (60%) with Navigation Header -->
+                <div class="h-[60%] relative bg-white flex flex-col overflow-hidden">
+                    <!-- Month Header with Navigation -->
+                    <div class="flex justify-between items-center px-6 py-3 
+                                border-2 border-red-600 rounded-none flex-shrink-0">
+                        <button (click)="prevMonth()" [disabled]="!canGoPrev" [class.opacity-30]="!canGoPrev" class="w-10 h-10 rounded-full bg-transparent
+                                       flex items-center justify-center
+                                       transition-all duration-300
+                                       hover:bg-gray-100 hover:scale-110 active:scale-95
+                                       disabled:pointer-events-none">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px"
+                                fill="currentColor" class="text-gray-700">
+                                <path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12l4.58-4.59z" />
+                            </svg>
+                        </button>
+
+                        <span class="text-2xl font-light text-primary capitalize tracking-wide
+                                     animate-subtle-heartbeat">
+                            {{ currentMonthCard.monthName | titlecase }}
+                        </span>
+
+                        <button (click)="nextMonth()" [disabled]="!canGoNext" [class.opacity-30]="!canGoNext" class="w-10 h-10 rounded-full bg-transparent
+                                       flex items-center justify-center
+                                       transition-all duration-300
+                                       hover:bg-gray-100 hover:scale-110 active:scale-95
+                                       disabled:pointer-events-none">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px"
+                                fill="currentColor" class="text-gray-700">
+                                <path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6-6-6z" />
+                            </svg>
+                        </button>
+                    </div>
+
+                    <!-- Calendar Component -->
+                    <div class="flex-1 overflow-hidden">
+                        <app-calendar [displayDate]="currentMonthCard.date"></app-calendar>
+                    </div>
+                </div>
             </div>
         </div>
+    </div>
 
-    </header>
-
-    <main class="calendar-section">
-        <app-calendar></app-calendar>
-    </main>
-
-    <div class="quote-overlay fade-slide-up" *ngIf="quote$ | async as quote" (click)="closeQuote()">
-        <div class="overlay-content">
-            <p class="quote-text">"{{ quote.quote }}"</p>
-            <p class="quote-author">- {{ quote.author }}</p>
+    <!-- Full screen quote overlay -->
+    <div class="fixed inset-0 w-screen h-screen
+                bg-black/95 backdrop-blur-lg
+                flex flex-col justify-center items-center
+                text-white text-center px-8 z-[9999] cursor-pointer
+                transition-opacity duration-300
+                animate-fade-slide-up perspective-1000" *ngIf="quote$ | async as quote" (click)="closeQuote()">
+        <div class="max-w-[90%] transform preserve-3d
+                    hover:scale-105 transition-transform duration-500">
+            <p class="text-3xl italic font-serif mb-8 leading-snug max-w-3xl
+                      drop-shadow-[0_4px_12px_rgba(0,0,0,0.8)]">
+                "{{ quote.quote }}"
+            </p>
+            <p class="text-2xl opacity-80 text-right w-full max-w-2xl
+                      font-script mt-4 border-t border-white/30 pt-4
+                      drop-shadow-[0_2px_8px_rgba(0,0,0,0.6)]">
+                - {{ quote.author }}
+            </p>
         </div>
     </div>
 </div>
