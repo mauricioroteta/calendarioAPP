@@ -111,7 +111,7 @@
 }
 
 .day-cell {
-    height: 55px;
+    height: 52px;
     /* Slightly larger targets */
     display: flex;
     flex-direction: column;
