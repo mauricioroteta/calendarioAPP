@@ -18,6 +18,12 @@
         "category": "efemeride"
     },
     {
+        "date": "2026-03-05",
+        "title": "Cumple Bruno",
+        "description": "Feliz cumple Bruno!!",
+        "category": "personal"
+    },
+    {
         "date": "2026-03-24",
         "title": "Día Nacional de la Memoria por la Verdad y la Justicia.",
         "description": "",
@@ -78,6 +84,12 @@
         "category": "efemeride"
     },
     {
+        "date": "2026-07-20",
+        "title": "Cumple Gonza",
+        "description": "Feliz cumple Gonza!!",
+        "category": "personal"
+    },
+    {
         "date": "2026-08-17",
         "title": "Paso a la Inmortalidad del Gral. José de San Martín",
         "description": "",
@@ -94,6 +106,12 @@
         "title": "Día de la Soberanía Nacional",
         "description": "",
         "category": "efemeride"
+    },
+    {
+        "date": "2026-11-23",
+        "title": "Aniversario",
+        "description": "Feliz aniversario!",
+        "category": "personal"
     },
     {
         "date": "2026-12-08",
