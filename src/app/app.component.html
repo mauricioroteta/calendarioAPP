@@ -9,8 +9,10 @@
             <!-- Card Content: Header Image + Calendar + Quotes -->
             <div class="h-full w-full flex flex-col">
 
-                <!-- Header Image Section (40%) -->
-                <div class="relative h-[40%] overflow-hidden bg-gray-200 shadow-deep">
+                <!-- Header Image Section (portada de año ocupa 100%, mes normal 40%) -->
+                <div class="relative overflow-hidden bg-gray-200 shadow-deep"
+                     [class.h-[40%]]="!currentMonthCard.isYearCover"
+                     [class.h-full]="currentMonthCard.isYearCover">
                     <!-- Dark overlay -->
                     <div class="absolute inset-0 bg-black/10 z-[1]"></div>
 
@@ -18,12 +20,51 @@
                     <img [src]="currentMonthCard.headerImage" (error)="onImageError($event)" alt="Imagen del mes"
                         class="w-full h-full object-cover block">
 
-                    <!-- Year overlay with 3D text shad ow -->
-                    <div class="absolute top-3 right-4 z-[2] text-white" *ngIf="!(selectedDate$ | async)">
-                        <h1 class="text-4xl font-extralight tracking-tighter opacity-90 
+                    <!-- Year overlay with 3D text shadow -->
+                    <div class="absolute z-[2] text-white" 
+                         [class.top-3]="!currentMonthCard.isYearCover"
+                         [class.right-4]="!currentMonthCard.isYearCover"
+                         [class.inset-0]="currentMonthCard.isYearCover"
+                         [class.flex]="currentMonthCard.isYearCover"
+                         [class.items-center]="currentMonthCard.isYearCover"
+                         [class.justify-center]="currentMonthCard.isYearCover"
+                         *ngIf="!(selectedDate$ | async)">
+                        <h1 [class.text-4xl]="!currentMonthCard.isYearCover"
+                            [class.text-9xl]="currentMonthCard.isYearCover"
+                            [class.font-extralight]="!currentMonthCard.isYearCover"
+                            [class.font-bold]="currentMonthCard.isYearCover"
+                            class="tracking-tighter opacity-90 
                                    drop-shadow-[0_4px_8px_rgba(0,0,0,0.5)]">
                             {{ currentMonthCard.year }}
                         </h1>
+                    </div>
+                    
+                    <!-- Navigation buttons for year cover page - Dentro de la imagen -->
+                    <div class="absolute bottom-8 left-0 right-0 flex justify-between px-12 z-[20]" 
+                         *ngIf="currentMonthCard.isYearCover">
+                        <button (click)="prevMonth()" [disabled]="!canGoPrev" [class.opacity-30]="!canGoPrev" 
+                                class="w-14 h-14 rounded-full bg-white/20 backdrop-blur-sm
+                                       flex items-center justify-center
+                                       transition-all duration-300
+                                       hover:bg-white/40 hover:scale-110 active:scale-95
+                                       disabled:pointer-events-none shadow-lg">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 0 24 24" width="32px"
+                                fill="currentColor" class="text-white">
+                                <path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12l4.58-4.59z" />
+                            </svg>
+                        </button>
+
+                        <button (click)="nextMonth()" [disabled]="!canGoNext" [class.opacity-30]="!canGoNext" 
+                                class="w-14 h-14 rounded-full bg-white/20 backdrop-blur-sm
+                                       flex items-center justify-center
+                                       transition-all duration-300
+                                       hover:bg-white/40 hover:scale-110 active:scale-95
+                                       disabled:pointer-events-none shadow-lg">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 0 24 24" width="32px"
+                                fill="currentColor" class="text-white">
+                                <path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6-6-6z" />
+                            </svg>
+                        </button>
                     </div>
 
                     <!-- Event description overlay -->
@@ -45,8 +86,9 @@
                     </div>
                 </div>
 
-                <!-- Calendar Section (60%) with Navigation Header -->
-                <div class="h-[70%] relative bg-white flex flex-col overflow-hidden">
+                <!-- Calendar Section (60%) with Navigation Header - Solo visible si NO es portada de año -->
+                <div class="h-[70%] relative bg-white flex flex-col overflow-hidden" 
+                     *ngIf="!currentMonthCard.isYearCover">
                     <!-- Month Header with Navigation -->
                     <div class="flex justify-between items-center px-6 py-3 
                                 border-4 border-red-100 flex-shrink-0 bg-red-100">

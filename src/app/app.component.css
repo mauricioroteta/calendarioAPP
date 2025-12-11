@@ -1,2 +1,8 @@
+
+
+.text-white {
+    --tw-text-opacity: 1;
+    color: #dfd7d7;
+}
 /* Component styles now handled by Tailwind classes in the template */
 /* Keeping this file for any future custom animations if needed */

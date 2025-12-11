@@ -10,6 +10,7 @@ interface MonthCard {
     headerImage: string;
     year: number;
     monthName: string;
+    isYearCover: boolean;
 }
 
 @Component({
@@ -76,12 +77,15 @@ export class AppComponent implements OnInit {
 
     updateCurrentCard() {
         const currentDate = this.calendarService.getCurrentDateValue();
+        const isYearCover = this.calendarService.isYearCover();
+        
         this.calendarService.getMonthImage().subscribe(imagePath => {
             this.currentMonthCard = {
                 date: currentDate,
                 headerImage: imagePath,
                 year: currentDate.getFullYear(),
-                monthName: currentDate.toLocaleDateString('es-ES', { month: 'long' })
+                monthName: isYearCover ? '' : currentDate.toLocaleDateString('es-ES', { month: 'long' }),
+                isYearCover: isYearCover
             };
         });
     }
