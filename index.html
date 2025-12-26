@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Verificar Parámetros URL</title>
+</head>
+<body>
+  <h1>Verificación de Parámetros en la URL</h1>
+  <p><strong>¿Tiene parámetros la URL?</strong> <span id="tieneParams"></span></p>
+  <p><strong>Parámetros encontrados:</strong></p>
+  <ul id="listaParams"></ul>
+
+  <script>
+    // Verificar si hay parámetros en la URL
+    const urlParams = new URLSearchParams(window.location.search);
+    const tieneParams = urlParams.toString().length > 0;
+
+    // Mostrar resultado
+    document.getElementById("tieneParams").textContent = tieneParams ? "Sí" : "No";
+
+    // Mostrar lista de parámetros
+    const lista = document.getElementById("listaParams");
+    if (tieneParams) {
+      for (const [key, value] of urlParams) {
+        const li = document.createElement("li");
+        li.textContent = `${key}: ${value}`;
+        lista.appendChild(li);
+      }
+    } else {
+      const li = document.createElement("li");
+      li.textContent = "No hay parámetros.";
+      lista.appendChild(li);
+    }
+  </script>
+</body>
+</html>   
